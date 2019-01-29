@@ -1,0 +1,51 @@
+
+header {
+  background: url(../images/Portfolio-hero-image.jpg) center / cover;
+  height: 60vh;
+  justify-content: center;
+  text-align: center;
+}
+
+h1{
+  color: hsla(0, 0%, 100%, 0.9);
+  font-weight: bold;
+}
+
+.slogan {
+  color: hsla(0, 0%, 100%, 0.7);
+  font-weight: lighter;
+  font-size: 1.6rem;
+}
+
+main {
+  max-width:900pxl
+}
+
+.project-description {
+  padding-left: 0;
+}
+
+.project img {
+  width: 100%;
+}
+
+body {
+  padding-bottom: 5rem;
+}
+
+footer.mdl-mini-footer {
+  bottom: 0;
+  padding: 0.5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+footer.mdl-mini-footer > ul {
+  margin: auto;
+  font-size: 2rem;
+
+@media screen and (max-width: 1024px){
+  header.mdl-layout__header {
+    display: flex;
+  }
+}
