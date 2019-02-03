@@ -1,51 +1,114 @@
-
-header {
-  background: url(../images/Portfolio-hero-image.jpg) center / cover;
-  height: 60vh;
-  justify-content: center;
-  text-align: center;
-}
-
 h1{
-  color: hsla(0, 0%, 100%, 0.9);
-  font-weight: bold;
+  font-family: 'Playfair Display'serif;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 77px;
+  font-size: 48px;
+
+  color: #000000;
 }
 
-.slogan {
-  color: hsla(0, 0%, 100%, 0.7);
-  font-weight: lighter;
-  font-size: 1.6rem;
+h2{
+font-family: 'Playfair Display',serif;
+font-style: normal;
+font-weight: bold;
+line-height: 58px;
+font-size: 36px;
+
+color: #000000;
 }
 
-main {
-  max-width:900pxl
+h3{
+font-family: 'Playfair Display',serif;
+font-style: normal;
+font-weight: normal;
+line-height: 48px;
+font-size: 30px;
+color: #000000;
+}
+h4{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: 35px;
+font-size: 24px;
+
+color: #000000;
 }
 
-.project-description {
-  padding-left: 0;
+.topnav{
+  text-decoration: none;
+  background-color: #E6D0A1;
+  padding-top: 5.3%;
+  padding-left: 10.6%;
+  padding-right: 10.6%;
+
 }
 
-.project img {
-  width: 100%;
+/* .basestyle{
+  padding: 10.6%;
+} */
+.intro{
+  background-color: #E6D0A1;
+  padding-top: 10.6%;
+  padding-left: 10.6%;
+  padding-right: 10.6%;
 }
 
-body {
-  padding-bottom: 5rem;
+.photogration{
+  background-color: #D3C4B1;
+  padding-left: 10.6%;
+  padding-right: 10.6%;
 }
 
-footer.mdl-mini-footer {
-  bottom: 0;
-  padding: 0.5rem;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-}
-footer.mdl-mini-footer > ul {
-  margin: auto;
-  font-size: 2rem;
+.ptext{
 
-@media screen and (max-width: 1024px){
-  header.mdl-layout__header {
-    display: flex;
-  }
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.contact{
+  background-color: #EBE2D3;
+  padding: 10.6%
+}
+
+.cta{
+width:175px;
+height:40px;
+background-color: #DBA72E;
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 600;
+line-height: 34px;
+font-size: 24px;
+text-align: center;
+}
+
+/* //About specific things */
+.bulletlist {
+  background-color: #EBE2D3;
+  padding-left: 10.6%;
+  padding-right: 10.6%;
+}
+
+ul{
+  padding-left:3%;
+  list-style-type: disc;
+   list-style-position: outside;
+}
+.long-version{
+  padding-left: 10.6%;
+  padding-right: 10.6%;
+}
+
+.line{
+  border-bottom: 2px solid black;
+}
+
+.quote{
+font-family: 'Playfair Display',serif;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 32px;
 }
