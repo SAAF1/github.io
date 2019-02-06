@@ -33,6 +33,7 @@ font-weight: normal;
 line-height: 35px;
 font-size: 24px;
 
+
 color: #000000;
 }
 
@@ -42,17 +43,61 @@ color: #000000;
   padding-top: 5.3%;
   padding-left: 10.6%;
   padding-right: 10.6%;
-
 }
 
-/* .basestyle{
-  padding: 10.6%;
-} */
+.lpadding{
+  margin-left:10.6%;
+}
+.rpadding{
+  margin-right:10.6%
+}
+
+strong {
+  font-weight: bold;
+}
+
+.wsix-hundred{
+  max-width:600px;
+}
+
+.footer-icon{
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  /* grid-template-columns: 120px 9fr 7fr 2fr 120px; */
+}
+
+.ralign{
+  text-align: right;
+}
+
+.email{
+  grid-column-start:2;
+  grid-column-end:2;
+}
+
+.github{
+  grid-column-start:3;
+  grid-column-end:3;
+}
+
+.linkedin{
+  grid-column-start:4;
+  grid-column-end:4;
+}
+
 .intro{
-  background-color: #E6D0A1;
+  /* background-color: #E6D0A1; */
   padding-top: 10.6%;
   padding-left: 10.6%;
   padding-right: 10.6%;
+}
+
+.gold{
+  background-color: #E6D0A1;
+}
+.beige{
+  background-color: #EBE2D3;
 }
 
 .photogration{
@@ -73,8 +118,10 @@ color: #000000;
 }
 
 .cta{
+style="text-decoration:none;"
 width:175px;
 height:40px;
+color:black;
 background-color: #DBA72E;
 font-family: 'Raleway', sans-serif;
 font-style: normal;
@@ -82,27 +129,60 @@ font-weight: 600;
 line-height: 34px;
 font-size: 24px;
 text-align: center;
+margin: 30px 30px 30px 30px;
+
+}
+
+.imageformat{
+  max-width: 100%;
+  height: auto;
+}
+
+.textcenter{
+  text-align: center;
 }
 
 /* //About specific things */
 .bulletlist {
-  background-color: #EBE2D3;
+  width: 78.8%;
+  /* background-color: #EBE2D3; */
   padding-left: 10.6%;
   padding-right: 10.6%;
+  /* padding-top: 60px;
+  padding-bottom: 60px; */
+}
+.tpadding-sixty{
+  padding-top:60px;
+}
+.tpadding-thirty{
+  padding-top:30px;
+}
+.bpadding-sixty{
+  padding-bottom: :60px;
+}
+.bpadding-thirty{
+  padding-bottom:30px;
 }
 
-ul{
+.bulletpoints{
   padding-left:3%;
   list-style-type: disc;
    list-style-position: outside;
 }
 .long-version{
   padding-left: 10.6%;
-  padding-right: 10.6%;
+  padding-right: 20.6%;
 }
+
+.standardpadding{
+  padding-left: 10.6%;
+  padding-right: 20.6%;
+}
+
 
 .line{
   border-bottom: 2px solid black;
+  max-width: 600px;
 }
 
 .quote{
@@ -111,4 +191,50 @@ font-style: normal;
 font-weight: bold;
 line-height: normal;
 font-size: 32px;
+}
+
+.top-spacing{
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+.bio-top{
+  background-color: #E6D0A1;
+  /* padding-top: 10.6%; */
+  padding-left: 10.6%;
+  padding-right: 20.6%;
+}
+.clear{
+  padding-left:0%;
+  padding-right: 0%;
+  padding-top: 0%;
+}
+
+.vector-format{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 7%;
+ padding-top:30px;
+ padding-bottom: 30px;
+}
+
+/* PHOTOGRATION */
+.two-column{
+  display: grid;
+ grid-template-columns: 5fr 5fr;
+}
+
+.three-column{
+  display: grid;
+ grid-template-columns: 3fr 3fr 3fr;
+
+}
+.h5{
+ font-family: 'Lato', sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ line-height: normal;
+ font-size: 16px;
 }
