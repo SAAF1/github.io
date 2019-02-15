@@ -3,6 +3,7 @@ body{
   font-family: 'Lato', sans-serif;
   font-style:normal;
   font-weight:400;
+  line-height: 2rem;
 }
 h1,h2,h3{
   font-family:'Playfair Display', serif;
@@ -11,15 +12,15 @@ h1,h2,h3{
   font-weight:400;
 }
 h1{
-  font-size:4rem;
+  font-size:3.5rem;
 }
 
 h2{
-font-size: 3rem;
+font-size: 2.3rem;
 }
 
 h3{
-font-size: 1.7rem;
+font-size: 1.5rem;
 }
 h4{
 font-family: 'Lato', sans-serif;
@@ -44,7 +45,9 @@ ol {
 }
 
 .right {
-    text-align: right;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between
     /* float: right; */
 }
 .one-twenty-margin{
@@ -67,11 +70,23 @@ ol {
     display:block;
 }
 .tiny-width{
-  max-width:55%;
+  max-width:65%;
+  margin:auto;
+}
+.seventy-width{
+  max-width: 70%;
   margin:auto;
 }
 
+.fifty-five-width{
+  max-width: 55%;
+  margin:auto;
+  display:block;
+}
 
+.height{
+  line-height:155px;
+}
 
 .topnav{
   text-decoration: none;
@@ -80,6 +95,8 @@ ol {
 .lpadding{
   padding-left:15%;
 }
+
+
 .rpadding{
   padding-right:15%
 }
@@ -88,9 +105,13 @@ strong {
   font-weight: bold;
 }
 
-/* .wsix-hundred{
-  max-width:600px;
-} */
+.height-two-hundred{
+  height:200px;
+  line-height: 200px;
+}
+
+
+
 
 .footer-icon{
   display: grid;
@@ -202,6 +223,9 @@ margin: 30px 30px 30px 30px;
 .tpadding-thirty{
   padding-top:30px;
 }
+.tpadding-ten{
+  padding-top:10px;
+}
 .bpadding-sixty{
   padding-bottom:60px;
 }
@@ -294,6 +318,12 @@ text-indent: -1rem;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 30px;
 }
+
+.uneven-two-column{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-column-gap: 5px;
+}
 .two-columnsmall{
   display: grid;
  grid-template-columns: 1.5fr 5fr;
@@ -305,6 +335,7 @@ text-indent: -1rem;
 .three-column{
   display: grid;
  grid-template-columns: 3fr 3fr 3fr;
+ grid-column-gap:30px;
 }
 
 .h5{
