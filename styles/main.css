@@ -110,8 +110,28 @@ strong {
   line-height: 200px;
 }
 
+.flex{
+  display: flex;
+       /* width: 50%; */
+       /* height: 200px;  */
+       margin: auto;
+       /* border-radius: 10px;  */
+       /* border: 3px dashed #1c87c9;  */
+}
+
+.verticalcenter{
+  margin:auto;
+  text-align:center;
+  display: flex;
+}
 
 
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 .footer-icon{
   display: grid;
@@ -349,4 +369,15 @@ text-indent: -1rem;
    list-style-type: disc;
    list-style-position: outside;
    padding-left: 3%;
+}
+
+.r-rectangle{
+    border-radius: 15px;
+    /* background: #73AD21; */
+    padding: 20px;
+    width: 90%;
+    height: 100%;
+    box-shadow: 1px 1px 4px .5px grey;
+    /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]; */
+
 }
