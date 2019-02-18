@@ -125,6 +125,64 @@ strong {
   display: flex;
 }
 
+/* .venn-wrapper div{
+   display: grid;
+   grid-template-columns: 80vw;
+   grid-template-rows: 50vw 30vw 50vw;
+   margin: auto;
+   text-align: center;
+
+   grid-row: 1;
+} */
+
+.venn-wrapper {
+    display: grid;
+    grid-template-columns: 4fr 2fr 4fr;
+    grid-template-rows: 1fr;
+    margin: auto;
+    /* text-align: center; */
+    /* max-width: 500px; */
+}
+
+.venn-left{
+  background-color: rgba(255, 0, 0, 0.7);
+  grid-column: 1/ span 2;
+  grid-row: 1;
+  /* padding: 0 0 20vw 0; /* bottom padding */
+
+  /* display: grid; */
+  border-radius: 20%;
+}
+
+.venn-middle{
+  /* background-color: blue; */
+  font-size: 1.2rem;
+  grid-column: 2;
+  grid-row:1;
+  z-index: 1;
+  /* border-radius: 10%; */
+}
+
+.venn-tright{
+  /* grid-row: 1; */
+  grid-column:3/span 3;
+  margin:auto;
+}
+.venn-right{
+background-color: rgba(0, 0, 255, 0.7);
+ grid-column: 2/ span 3;
+ grid-row: 1;
+ /* display: flex; */
+ /* padding: 20vw 0 0 0;  /* top padding */
+
+ /* display: grid; */
+ border-radius: 20%;
+
+ /* grid-column: 2 / span 2; */
+ /* padding: 0 0 0 15vw; /* left padding */
+ /* text-align: left; */
+}
+
 
 .center{
   display: block;
