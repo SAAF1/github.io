@@ -148,9 +148,6 @@ strong {
   background-color: rgba(255, 0, 0, 0.7);
   grid-column: 1/ span 2;
   grid-row: 1;
-  /* padding: 0 0 20vw 0; /* bottom padding */
-
-  /* display: grid; */
   border-radius: 20%;
 }
 
@@ -161,9 +158,16 @@ strong {
   z-index: 1;
 }
 
+.venn-tleft{
+  grid-column:1/span 1;
+  margin:auto;
+  grid-row:1;
+}
+
 .venn-tright{
   grid-column:3/span 3;
   margin:auto;
+  grid-row:1;
 }
 .venn-right{
 background-color: rgba(0, 0, 255, 0.7);
