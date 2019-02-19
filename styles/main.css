@@ -44,6 +44,11 @@ ol {
   list-style-type: decimal;
 }
 
+.thumbsdown {
+    list-style-image: url('images/red_thumbsdown.svg');
+    z-index: 2;
+}
+
 .right {
     display:flex;
     flex-direction: row-reverse;
@@ -192,6 +197,32 @@ strong {
  grid-row: 1;
  border-radius: 20%;
 }
+
+.before-after{
+  display: grid;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:1fr 8fr;
+}
+.problem-analysis{
+  grid-column: span 2;
+  max-height:100px;
+  text-align:center;
+  margin: auto;
+}
+.before{
+  /* grid-column: 1; */
+  /* grid-row: 1; */
+  background-color: #E6D0A1;
+
+}
+
+.after{
+  /* grid-column: 1; */
+  /* grid-row: 2; */
+  background-color: #F5EEE0;
+}
+
 
 
 .center{
