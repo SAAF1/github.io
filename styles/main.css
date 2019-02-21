@@ -483,7 +483,16 @@ text-indent: -1rem;
 }
 
 .background-arrow{
+  background-image:url('../images/problem_vector.svg');
   background-size:contain;
+  background-repeat: no-repeat;
+  grid-column:1/span 1;
+  margin:0 auto;
+  grid-row:1;
+  padding-left:3rem;
+  padding-top:3rem;
+  padding-bottom:3rem;
+  padding-right:2rem;
 }
 
 .blackbar{
