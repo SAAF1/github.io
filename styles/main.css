@@ -472,7 +472,7 @@ text-indent: -1rem;
 
 .problem-answer{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.2fr 1fr;
   grid-column-gap: 0px;
 }
 .two-column-persona{
@@ -482,9 +482,20 @@ text-indent: -1rem;
 
 }
 
+.arrow{
+  position:absolute;
+  height:100%;
+  width:100%;
+  /* z-index:1; */
+}
+.z-index{
+  z-index:1;
+}
+
 .background-arrow{
-  background-image:url('../images/problem_vector.svg');
-  background-size:contain;
+  /* background-image:url('../images/problem_vector.svg'); */
+  background-size:cover;
+  /* background-position: -10%; */
   background-repeat: no-repeat;
   grid-column:1/span 1;
   margin:0 auto;
