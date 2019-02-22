@@ -488,47 +488,47 @@ text-indent: -1rem;
 
 /* TEST CSS */
 /* Container holding the image and the text */
-.container {
+/* .container {
   position: relative;
   text-align: center;
   color: white;
-}
+} */
 
 /* Bottom left text */
-.bottom-left {
+/* .bottom-left {
   position: absolute;
   bottom: 8px;
   left: 16px;
-}
+} */
 
 /* Top left text */
-.top-left {
+/* .top-left {
   position: absolute;
   top: 8px;
   left: 16px;
-}
+} */
 
 /* Top right text */
-.top-right {
+/* .top-right {
   position: absolute;
   top: 8px;
   right: 16px;
-}
+} */
 
 /* Bottom right text */
-.bottom-right {
+/* .bottom-right {
   position: absolute;
   bottom: 8px;
   right: 16px;
-}
+} */
 
 /* Centered text */
-.centered {
+/* .centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 /* END TEST CSS */
 
 /* PHOTOGRATION */
@@ -562,9 +562,8 @@ text-indent: -1rem;
 }
 
 .background-arrow{
-  /* background-image:url('../images/problem_vector.svg'); */
+  position:relative;;
   background-size:cover;
-  /* background-position: -10%; */
   background-repeat: no-repeat;
   grid-column:1/span 1;
   margin:0 auto;
