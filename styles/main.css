@@ -55,6 +55,29 @@ img {
   height:auto;
 }
 
+a {
+  text-decoration:none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  /* text-decoration: none; */
+  /* background: #0093E9; */
+}
+
+header img {
+  max-width: 40px;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap:20px;
+}
+
 .thumbsdown {
     list-style-image: url('../images/red_thumbsdown.svg');
     list-style-position: outside;
@@ -111,9 +134,9 @@ img {
   line-height:155px;
 }
 
-.topnav{
+/* .topnav{
   text-decoration: none;
-}
+} */
 
 .lpadding{
   padding-left:15%;
@@ -462,6 +485,51 @@ text-indent: -1rem;
  padding-top:30px;
  padding-bottom: 30px;
 }
+
+/* TEST CSS */
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* END TEST CSS */
 
 /* PHOTOGRATION */
 .two-column{
