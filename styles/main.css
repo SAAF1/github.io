@@ -12,15 +12,18 @@ h1,h2,h3{
   font-weight:400;
 }
 h1{
-  font-size:3.5rem;
+  font-size: 3.5rem;
+  /* OLD 3.5rem; */
 }
 
 h2{
 font-size: 2.3rem;
+/* OLD SIZE 2.3rem; */
 }
 
 h3{
 font-size: 1.5rem;
+/* OLD SIZE 1.5rem; */
 margin-bottom: 25px;
 }
 h4{
@@ -29,10 +32,28 @@ font-style: normal;
 font-weight: normal;
 line-height: 1.4;
 font-size: 22px;
-
-
+/* OLD 22px; */
 color: #000000;
 }
+
+/* iPhone SE SIZE: */
+@media screen and (max-width: 320px) {
+h1{
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+h2{
+
+}
+h3{
+
+}
+h4{
+  font-size: 1.6rem;
+}
+}
+
+
 p{
   font-size:1.5rem;
   font-weight:400;
@@ -532,9 +553,16 @@ text-indent: -1rem;
 /* END TEST CSS */
 
 /* PHOTOGRATION */
+.r-two-column{
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  /* grid-column-gap: 30px; */
+}
 .two-column{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
   grid-column-gap: 30px;
 }
 
@@ -551,8 +579,12 @@ text-indent: -1rem;
 
 }
 
-.arrow{
+.arrow-text{
+  position:relative;
+  z-index:1;
+}
 
+.arrow{
   position:absolute;
   height:100%;
   width:100%;
