@@ -36,22 +36,7 @@ font-size: 22px;
 color: #000000;
 }
 
-/* iPhone SE SIZE: */
-@media screen and (max-width: 320px) {
-h1{
-  font-size: 2.2rem;
-  font-weight: 700;
-}
-h2{
 
-}
-h3{
-
-}
-h4{
-  font-size: 1.6rem;
-}
-}
 
 
 p{
@@ -98,6 +83,8 @@ nav {
   grid-template-columns: auto auto auto auto;
   grid-gap:20px;
 }
+
+
 
 .thumbsdown {
     list-style-image: url('../images/red_thumbsdown.svg');
@@ -437,6 +424,8 @@ max-width:fit-content;
 .rpadding-sixty{
   padding-right:60px;
 }
+
+
 .bulletlist{
   padding-left:1.5%;
   list-style-type: circle;
@@ -555,15 +544,21 @@ text-indent: -1rem;
 /* PHOTOGRATION */
 .r-two-column{
   display: grid;
-  /* grid-template-columns: 1fr 1fr; */
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  /* grid-column-gap: 30px; */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-column-gap: 30px;
 }
+
+.r-process-two-column{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-column-gap: 15px;
+}
+
+.r-small
 .two-column{
   display: grid;
-  /* grid-template-columns: 1fr 1fr; */
-  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-  grid-column-gap: 30px;
+    grid-template-columns: 1fr 5fr;
+  /* grid-column-gap: 30px; */
 }
 
 .problem-answer{
@@ -572,7 +567,7 @@ text-indent: -1rem;
   grid-column-gap: 0px;
   position:relative;
 }
-.two-column-persona{
+.r-two-column-persona{
   display: grid;
   grid-template-columns: 30fr .15fr 30fr;
   grid-column-gap: 30px;
@@ -643,8 +638,10 @@ text-indent: -1rem;
 
 .three-column{
   display: grid;
- grid-template-columns: 3fr 3fr 3fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+ /* grid-template-columns: 3fr 3fr 3fr; */
  grid-column-gap:30px;
+ grid-row-gap: 50px;
 }
 
 .h5{
@@ -668,5 +665,87 @@ text-indent: -1rem;
     height: 100%;
     box-shadow: 1px 1px 4px .5px grey;
     /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]; */
+
+}
+
+/* TABLET */
+@media screen and (max-width: 800px){
+  h1{
+    font-size: 2.4rem;
+    font-weight: 700;
+    }
+    h4{
+      font-size: 18px;
+    }
+
+    p{
+      font-size: 18px;
+    }
+
+
+}
+
+/* iPhone SE SIZE: */
+@media screen and (max-width: 320px) {
+h1{
+  font-size: 1.7rem;
+  font-weight: 700;
+  }
+h2{
+
+}
+h3{
+
+}
+h4{
+  font-size: 16px;
+}
+
+p{
+  font-size: 16px;
+}
+
+.logo-format{
+min-width: 40px;
+
+margin: auto;
+}
+
+
+.height{
+  line-height:50px;
+}
+
+.tpadding-onehundred{
+  padding-top:60px;
+}
+.tpadding-sixty{
+  padding-top:30px;
+}
+.tpadding-thirty{
+  padding-top:15px;
+}
+.tpadding-ten{
+  padding-top:5px;
+}
+.bpadding-sixty{
+  padding-bottom:30px;
+}
+.bpadding-thirty{
+  padding-bottom:15px;
+}
+
+.lpadding-thirty{
+  padding-left: 15px;
+}
+.lpadding-sixty{
+  padding-left: 30px;
+}
+.rpadding-thirty{
+  padding-right:15px;
+}
+.rpadding-sixty{
+  padding-right:30px;
+}
 
 }
