@@ -597,6 +597,7 @@ text-indent: -1rem;
 }
 
 .background-arrow{
+  overflow:hidden;
   position:relative;;
   background-size:cover;
   background-repeat: no-repeat;
@@ -696,7 +697,7 @@ text-indent: -1rem;
     display:none;
   }
   .arrow-mobile{
-    overflow:hidden;
+    /* overflow:hidden; */
     top:0;
     display:block;
     position:absolute;
