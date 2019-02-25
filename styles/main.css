@@ -70,18 +70,19 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 30px;
-  /* text-decoration: none; */
-  /* background: #0093E9; */
+
 }
 
 header img {
-  max-width: 40px;
+  max-width: 30px;
 }
 
 nav {
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap:20px;
+  grid-template-columns: auto auto auto;
+  grid-gap:30px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 
@@ -563,7 +564,8 @@ text-indent: -1rem;
 
 .problem-answer{
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
+  /* grid-template-columns: 1.2fr 1fr; */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-column-gap: 0px;
   position:relative;
 }
@@ -585,7 +587,6 @@ text-indent: -1rem;
   width:100%;
   top:0;
   left:0;
-  /* z-index:1; */
 }
 .z-index{
   z-index:1;
@@ -683,6 +684,22 @@ text-indent: -1rem;
     }
 
 
+}
+
+/* P-HABLET */
+@media screen and (max-width: 600px){
+  .arrow{
+    position:absolute;
+    height:auto;
+    width:100%;
+    top:0;
+    left:0;
+    transform: rotate(90deg);
+    background-size:cover;
+    object-fit:contain;
+    /* background-size: 100%; */
+    /* clip:rect(0px,25px,25px,0px); */
+  }
 }
 
 /* iPhone SE SIZE: */
