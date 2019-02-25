@@ -581,13 +581,17 @@ text-indent: -1rem;
   z-index:1;
 }
 
-.arrow{
+.arrow-desktop{
   position:absolute;
   height:100%;
   width:100%;
   top:0;
   left:0;
 }
+.arrow-mobile{
+  display:none;
+}
+
 .z-index{
   z-index:1;
 }
@@ -688,13 +692,19 @@ text-indent: -1rem;
 
 /* P-HABLET */
 @media screen and (max-width: 600px){
-  .arrow{
+  .arrow-desktop{
+    display:none;
+  }
+  .arrow-mobile{
+    overflow:hidden;
+    top:0;
+    display:block;
     position:absolute;
     height:auto;
     width:100%;
-    top:0;
+    top:-40px;
     left:0;
-    transform: rotate(90deg);
+    /* transform: rotate(90deg); */
     background-size:cover;
     object-fit:contain;
     /* background-size: 100%; */
