@@ -23,7 +23,6 @@ font-size: 2.3rem;
 
 h3{
 font-size: 1.5rem;
-/* OLD SIZE 1.5rem; */
 margin-bottom: 25px;
 }
 h4{
@@ -90,7 +89,7 @@ margin:auto;
   display: grid;
   /* grid-template-columns: auto auto auto; */
  grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
-  grid-gap:30px;
+  grid-gap:15px;
   /* margin-left: 0px; */
   /* margin-right: 0px; */
 }
@@ -111,6 +110,8 @@ margin:auto;
     border-color: transparent transparent #ede0c6 transparent;
     /* border-color: transparent transparent #ffffff transparent; */
 }
+
+
 
 
 
@@ -620,8 +621,15 @@ text-indent: -1rem;
 }
 
 .background-arrow{
-  background-color: #E6D0A1;
-  overflow:hidden;
+  /* background-color: #E6D0A1; */
+  margin-left:calc(1vh);
+  width: 0px;
+  height: 0px;
+  border-top: calc(10px + 10vh) solid transparent;
+  border-bottom: calc(10px + 10vh) solid transparent;
+  border-left:calc(10px + 10vh) #E6D0A1 solid;
+
+  /* overflow:hidden;
   position:relative;;
   background-size:cover;
   background-repeat: no-repeat;
@@ -631,7 +639,7 @@ text-indent: -1rem;
   padding-left:3rem;
   padding-top:3rem;
   padding-bottom:3rem;
-  padding-right:2rem;
+  padding-right:2rem; */
 }
 
 .blackbar{
@@ -770,6 +778,10 @@ text-indent: -1rem;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 25px;
   }
+  .max-width{
+      max-width: 75%;
+      margin:auto;
+  }
 
 }
 
@@ -784,7 +796,8 @@ h2{
 
 }
 h3{
-
+  font-size: 1.2rem;
+  margin-bottom: 25px;
 }
 h4{
   font-size: 16px;
@@ -792,6 +805,10 @@ h4{
 
 p{
   font-size: 16px;
+}
+
+.resume{
+  display:none;
 }
 
 .logo-format{
