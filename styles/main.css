@@ -740,7 +740,7 @@ text-indent: -1rem;
     position:absolute;
     height:auto;
     width:100%;
-    top:-40px;
+    /* top:-40px; */
     left:0;
     /* transform: rotate(90deg); */
     background-size:cover;
