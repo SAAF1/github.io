@@ -744,6 +744,12 @@ text-indent: -1rem;
 }
 
 
+.mobile-only {
+  display: none;
+}
+.desktop-only{
+  display:block;
+}
 
 /* TABLET */
 @media screen and (max-width: 900px){
@@ -777,6 +783,12 @@ text-indent: -1rem;
     max-width: 100%;
     height: auto;
     min-width: 30%;
+  }
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only{
+    display:none;
   }
 
 }
