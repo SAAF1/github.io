@@ -12,7 +12,7 @@ h1,h2,h3{
   font-weight:400;
 }
 h1{
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   /* OLD 3.5rem; */
 }
 
@@ -107,7 +107,12 @@ margin:auto;
       border-color: transparent transparent #ede0c6 transparent;
 } */
 
-
+.hero-image{
+  padding-top: calc(30vh);
+  max-width: 100%;
+  height: auto;
+  min-width: 30%;
+}
 
 
 
@@ -365,14 +370,14 @@ strong {
 
 .photogration{
   background-color: #D3C4B1;
-  padding-left: 10.6%;
-  padding-right: 10.6%;
+  /* padding-left: 10.6%; */
+  /* padding-right: 10.6%; */
 }
 
 .ptext{
-
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+    display: grid;
+  /* grid-template-columns: 1fr 2fr; */
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   grid-column-gap: 30px;
 }
 
@@ -569,6 +574,12 @@ text-indent: -1rem;
   grid-column-gap: 30px;
 }
 
+.r-hero-two-column{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-column-gap: 30px;
+}
+
 .r-process-two-column{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -673,8 +684,7 @@ text-indent: -1rem;
 .three-column{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
- /* grid-template-columns: 3fr 3fr 3fr; */
- grid-column-gap:30px;
+  grid-column-gap:30px;
  grid-row-gap: 50px;
 }
 
@@ -711,12 +721,22 @@ text-indent: -1rem;
   padding: 30px;
 }
 
+
+
 /* TABLET */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
   h1{
-    font-size: 2.4rem;
+    font-size: 2.1rem;
     font-weight: 700;
     }
+
+  h2{
+    font-size:1.7rem;
+  }
+
+  h3{
+    font-size:1.4rem;
+  }
     h4{
       font-size: 18px;
     }
@@ -728,8 +748,32 @@ text-indent: -1rem;
 
 }
 
+/* Breakpoint of hero two column */
+@media screen and (max-width: 670px){
+  .hero-image{
+    padding-top: 0px;
+    max-width: 100%;
+    height: auto;
+    min-width: 30%;
+  }
+
+}
+
 /* P-HABLET */
 @media screen and (max-width: 588px){
+  h1{
+    font-size: 1.9rem;
+    font-weight: 700;
+    }
+
+  h2{
+    font-size: 1.5rem;
+  }
+  h3{
+    font-size:1.2rem;
+  }
+
+
   .arrow-desktop{
     display:none;
   }
@@ -789,7 +833,7 @@ h1{
   font-weight: 700;
   }
 h2{
-
+  font-size: 1.5rem;
 }
 h3{
   font-size: 1.2rem;
