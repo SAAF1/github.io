@@ -391,10 +391,17 @@ strong {
 
 .ptext{
     display: grid;
-  /* grid-template-columns: 1fr 2fr; */
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   grid-column-gap: 30px;
 }
+
+.desktop{
+  display:block;
+}
+.mobile{
+  display:none;
+}
+
 
 .contact{
   background-color: #EBE2D3;
