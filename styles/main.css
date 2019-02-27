@@ -35,6 +35,21 @@ font-size: 22px;
 color: #000000;
 }
 
+.h5{
+ font-family: 'Lato', sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ line-height: normal;
+ font-size: 16px;
+}
+
+.h6{
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight:normal;
+  line-height: normal;
+  font-size: 12px;
+}
 
 
 
@@ -688,12 +703,12 @@ text-indent: -1rem;
  grid-row-gap: 50px;
 }
 
-.h5{
- font-family: 'Lato', sans-serif;
- font-style: normal;
- font-weight: normal;
- line-height: normal;
- font-size: 16px;
+
+
+.research-design-testing{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(20px, 1fr));
+  grid-column-gap: 10px;
 }
 .solidbullets{
    list-style-type: disc;
