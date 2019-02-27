@@ -420,8 +420,8 @@ font-size: 24px;
 text-align: center;
 margin: 30px  auto;
 padding:1rem 2rem;
-/* display:block; */
 max-width:fit-content;
+display: inline-block;
 }
 
 .double-cta{
