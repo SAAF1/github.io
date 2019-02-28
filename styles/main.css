@@ -666,8 +666,8 @@ text-indent: -1rem;
 .three-column{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-column-gap:30px;
- grid-row-gap: 50px;
+  grid-column-gap:60px;
+ grid-row-gap: 80px;
 }
 
 
@@ -885,6 +885,12 @@ text-indent: -1rem;
   .max-width{
       max-width: 75%;
       margin:auto;
+  }
+  .three-column{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column-gap:90px;
+    grid-row-gap: 90px;
   }
 
 }
