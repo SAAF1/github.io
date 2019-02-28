@@ -815,6 +815,11 @@ text-indent: -1rem;
   .desktop-only{
     display:none;
   }
+  .fifty-five-width{
+    max-width: 75%;
+    margin:auto;
+    display:block;
+  }
 
 }
 
@@ -911,10 +916,15 @@ p{
 }
 
 .logo-format{
-min-width: 40px;
-
-margin: auto;
+  min-width: 40px;
+  margin: auto;
 }
+.fifty-five-width{
+  max-width: 85%;
+  margin:auto;
+  display:block;
+}
+
 
 
 .height{
