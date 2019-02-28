@@ -155,6 +155,7 @@ margin:auto;
 }
 
 .marginauto{
+  width:50%;
   margin:auto;
 }
 
@@ -253,27 +254,29 @@ strong {
   padding-right:1.5rem;
   padding-top:3rem;
   padding-bottom:3rem;
-  margin:auto;
+  margin-top:0;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 .venn-tleft{
   grid-column:1/span 1;
   margin:0 auto;
   grid-row:1;
-  padding-left:3rem;
+  padding-left:2rem;
   padding-top:3rem;
   padding-bottom:3rem;
-  padding-right:2rem;
+  padding-right:1rem;
 }
 
 .venn-tright{
   grid-column:3/span 3;
   margin:0 auto;
   grid-row:1;
-  padding-right:3rem;
+  padding-right:2rem;
   padding-top:3rem;
   padding-bottom:3rem;
-  padding-left:2rem;
+  padding-left:1rem;
 }
 .venn-right{
   /* background-color: #E3CCA1; */
@@ -544,50 +547,7 @@ text-indent: -1rem;
  padding-bottom: 30px;
 }
 
-/* TEST CSS */
-/* Container holding the image and the text */
-/* .container {
-  position: relative;
-  text-align: center;
-  color: white;
-} */
 
-/* Bottom left text */
-/* .bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-} */
-
-/* Top left text */
-/* .top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-} */
-
-/* Top right text */
-/* .top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-} */
-
-/* Bottom right text */
-/* .bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-} */
-
-/* Centered text */
-/* .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */
-/* END TEST CSS */
 
 /* PHOTOGRATION */
 .r-two-column{
@@ -773,6 +733,71 @@ text-indent: -1rem;
       font-size: 18px;
     }
 
+
+}
+
+/* BREAKPOINT FOR VENN DIAGRAM */
+@media screen and (max-width: 700px){
+
+  .venn-wrapper {
+    max-width: 80%;
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows:repeat( auto-fit, minmax(250px, 1fr) );
+      /* grid-template-rows: 4fr 3fr 4fr; */
+      /* grid-template-: 1fr; */
+      margin: auto;
+      /* text-align: center; */
+      /* max-width: 500px; */
+  }
+
+  .venn-left{
+    background-color: #E6D0A1;
+    /* background-color: rgba(255, 0, 0, 0.7); */
+    grid-column: 1/ span 2;
+    grid-row: 1/span 2;
+    border-radius: 45px;
+  }
+
+  .venn-middle{
+    /* font-size: 1.2rem; */
+    grid-column: 1;
+    grid-row:2;
+    z-index: 2;
+    padding-left:2rem;
+    padding-right:1.5rem;
+    padding-top:3rem;
+    padding-bottom:3rem;
+    margin:auto;
+  }
+
+  .venn-tleft{
+    grid-column:1/span 2;
+    margin:0 auto;
+    grid-row:1;
+    padding-left:3rem;
+    padding-top:3rem;
+    padding-bottom:3rem;
+    padding-right:2rem;
+  }
+
+  .venn-tright{
+    grid-column:1/span 2;
+    margin:0 auto;
+    grid-row:3;
+    padding-right:3rem;
+    padding-top:3rem;
+    padding-bottom:3rem;
+    padding-left:2;
+  }
+  .venn-right{
+    /* background-color: #E3CCA1; */
+   background-color: hsla(39, 54%, 60%, 0.75);
+   /* background-color: rgba(0, 0, 255, 0.7); */
+   grid-column: 1/ span 2;
+   grid-row: 2/ span 4;
+   border-radius: 45px;
+  }
 
 }
 
