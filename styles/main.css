@@ -711,6 +711,13 @@ text-indent: -1rem;
   display:block;
 }
 
+.wide{
+  display:block;
+}
+.small{
+  display:none;
+}
+
 /* TABLET */
 @media screen and (max-width: 900px){
   h1{
@@ -732,7 +739,12 @@ text-indent: -1rem;
     p{
       font-size: 18px;
     }
-
+    .wide{
+      display:none;
+    }
+    .small{
+      display:block;
+    }
 
 }
 
