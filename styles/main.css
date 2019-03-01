@@ -428,8 +428,9 @@ display: inline-block;
 }
 
 .double-cta{
-  display:inline-block;
-
+  display:block;
+  width:100%;
+  text:center;
 }
 
 .imageformat{
