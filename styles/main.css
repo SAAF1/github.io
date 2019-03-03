@@ -92,7 +92,8 @@ a {
 .ralign-grid{
   display:grid;
   margin-right: 0px;
-  margin-left:auto;;
+  margin-left:auto;
+  color:  #332609;
 }
 
 .personal-logo{
