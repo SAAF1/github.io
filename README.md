@@ -1,2 +1,2 @@
 #My Portfolio
-A showcase of my work from the program. This is very updated. Totally.
+Working on portfolio based on feedback from a Design Critique
