@@ -95,6 +95,10 @@ ol {
 li{
   line-height:1.4;
   margin-bottom:1rem;
+  max-width:700px;
+  /* padding-top: 1vw; */
+  padding-bottom: 1vw;
+  padding-top: 1vw;
 }
 
 img {
@@ -737,7 +741,7 @@ text-indent: -1rem;
   margin:0 auto;
   grid-row:1;
   padding-left:3rem;
-  padding-top:3rem;
+  /* padding-top:3rem; */
   padding-bottom:3rem;
   padding-right:2rem;
 }
@@ -853,7 +857,8 @@ text-indent: -1rem;
  }
  /* ABOUT  ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
  .long-version{
-       max-width: 65%;
+       width: 65%;
+       max-width:700px;
        margin:auto;
  }
 /* HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE  */
@@ -877,7 +882,7 @@ nav {
 }
 
 .homepage-intro > h1,h2,h3,h4{
-  max-width:800px;
+  max-width:700px;
 }
 .homepage-intro > h1{
   padding-top:15vh;
