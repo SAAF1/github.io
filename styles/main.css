@@ -15,6 +15,7 @@ h1,h2,h3{
   line-height:1.3;
   font-weight:400;
   color: #332609;
+  max-width:800px;
   /* padding-top:2vw;
   padding-bottom:2vw; */
 }
@@ -50,7 +51,8 @@ font-size: 22px;
 padding-top:2vw;
 padding-bottom:2vw;
 /* OLD 22px; */
-color: #332609
+color: #332609;
+max-width: 800px;
 }
 
 .h5{
@@ -257,9 +259,6 @@ nav {
   line-height:100px;
 }
 
-/* .topnav{
-  text-decoration: none;
-} */
 
 .lpadding{
   padding-left:15%;
@@ -542,6 +541,7 @@ display: inline-block;
 
 .textcenter{
   text-align: center;
+  max-width:800px;
 }
 
 /* //About specific things */
@@ -817,14 +817,14 @@ text-indent: -1rem;
 
 }
 
-.page-links{
+/* .page-links{
   max-width: 85%;
-  /* margin:auto; */
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px;
-}
+} */
 
 
 .mobile-only {
@@ -852,8 +852,29 @@ text-indent: -1rem;
    /* float:left; */
  }
  /* ABOUT  ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
-
+ .long-version{
+       max-width: 65%;
+       margin:auto;
+ }
 /* HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE HOMEPAGE  */
+
+header img {
+  max-width:40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  /* background: #0093E9; */
+}
+
+nav {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap:20px;
+}
 
 .homepage-intro > h1,h2,h3,h4{
   max-width:800px;
