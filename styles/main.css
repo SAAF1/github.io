@@ -20,7 +20,7 @@ h1,h2,h3{
   padding-bottom:2vw; */
 }
 h1{
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight:700;
   padding-top:2.5vw;
   padding-bottom:2.5vw;
@@ -30,17 +30,17 @@ h1{
 
 h2{
 font-size: 2.3rem;
-font-weight: 700;
-padding-top:2.5vw;
-padding-bottom:2.5vw;
+/* font-weight: 700; */
+padding-top:.5vw;
+padding-bottom:.5vw;
 /* OLD SIZE 2.3rem; */
 }
 
 h3{
 font-size: 1.5rem;
 /* margin-bottom: 25px; */
-padding-top:2vw;
-padding-bottom:2vw;
+padding-top:.5vw;
+padding-bottom:.5vw;
 }
 h4{
 font-family: 'Lato', sans-serif;
@@ -48,8 +48,8 @@ font-style: normal;
 font-weight: normal;
 line-height: 1.4;
 font-size: 22px;
-padding-top:2vw;
-padding-bottom:2vw;
+padding-top:.5vw;
+padding-bottom:.5vw;
 /* OLD 22px; */
 color: #332609;
 max-width: 800px;
@@ -278,8 +278,8 @@ strong {
 }
 
 .height-two-hundred{
-  min-height:200px;
-  line-height: 200px;
+  /* min-height:200px; */
+  line-height: 100px;
 }
 
 .flex{
@@ -882,7 +882,7 @@ nav {
 }
 
 .homepage-intro > h1,h2,h3,h4{
-  max-width:700px;
+  max-width:800px;
 }
 .homepage-intro > h1{
   padding-top:15vh;
@@ -1131,8 +1131,8 @@ nav {
     grid-column-gap: 40px;
   }
   .height-two-hundred{
-    min-height:100px;
-    line-height: 100px;
+    min-height:75px;
+    line-height: 75px;
   }
   .cta{
   text-decoration:none;
