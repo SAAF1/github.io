@@ -602,7 +602,8 @@ display: inline-block;
 .bulletlist{
   padding-left:1.5%;
   list-style-type: circle;
-   list-style-position: outside;
+  list-style-position: outside;
+  max-width:700px;
 }
 .venn-wrapper .bulletlist{
   list-style-type: none;
@@ -973,6 +974,7 @@ nav > a {
  padding-bottom:0px;
  margin-bottom: 0rem;
  margin-top: 0rem;
+ max-width:700px;
 }
 
 .branding{
