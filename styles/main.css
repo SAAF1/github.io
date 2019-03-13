@@ -821,6 +821,7 @@ text-indent: -1rem;
    list-style-type: disc;
    list-style-position: outside;
    padding-left: 3%;
+   max-width: 700px;
 }
 
 .r-rectangle{
@@ -862,16 +863,23 @@ text-indent: -1rem;
 }
 
  /* GENERAL  GENERAL  GENERAL  GENERAL  GENERAL  GENERAL  GENERAL  GENERAL  GENERAL  GENERAL  */
- a:hover {
-   /* background-color: #E3CCA1; */
+ a.cta:hover {
     background-color: #E5BB59;
    font-weight: bold;
  }
 
+ /* a:hover {
+    background-color: #E5BB59;
+   font-weight: bold;
+ }
  nav> a:hover {
    background-color:#E6D0A1;
    color: grey;
  }
+ header> a:hover {
+   background-color:#E6D0A1;
+ } */
+
  .page-links >a >image {
    max-width:50px;
    height:auto;
@@ -1057,8 +1065,8 @@ nav > a {
     grid-column: 1;
     grid-row:2;
     z-index: 2;
-    padding-left:2rem;
-    padding-right:1.5rem;
+    padding-left:1rem;
+    padding-right:1rem;
     padding-top:3rem;
     padding-bottom:3rem;
     margin:auto;
@@ -1068,20 +1076,20 @@ nav > a {
     grid-column:1/span 2;
     margin:0 auto;
     grid-row:1;
-    padding-left:3rem;
+    padding-left:1rem;
     padding-top:3rem;
     padding-bottom:3rem;
-    padding-right:2rem;
+    padding-right:1rem;
   }
 
   .venn-tright{
     grid-column:1/span 2;
     margin:0 auto;
     grid-row:3;
-    padding-right:3rem;
+    padding-right:1rem;
     padding-top:3rem;
     padding-bottom:3rem;
-    padding-left:2;
+    padding-left:1rem;
   }
   .venn-right{
     /* background-color: #E3CCA1; */
