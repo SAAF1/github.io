@@ -686,9 +686,12 @@ text-indent: -1rem;
 
 .r-hero-two-column{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  /* grid-template-columns: 1fr minmax(270px, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-column-gap: 30px;
   align-items: center;
+  padding-top:30px;
+  padding-bottom:30px;
 }
 
 .r-process-two-column{
@@ -1081,6 +1084,21 @@ nav > a {
     }
 
 }
+@media screen and (max-width: 788px){
+  .desktop-only{
+    display:none;
+  }
+  .mobile-only{
+    display:grid;
+  }
+  .hero-image{
+    padding-top: 30px;
+    /* padding-bottom: 30px; */
+    max-width: 100%;
+    height: auto;
+    min-width: 30%;
+  }
+}
 
 /* BREAKPOINT FOR VENN DIAGRAM */
 @media screen and (max-width: 700px){
@@ -1156,7 +1174,7 @@ nav > a {
 
 /* Breakpoint of hero two column */
 @media screen and (max-width: 670px){
-  .hero-image{
+  /* .hero-image{
     padding-top: 30px;
     padding-bottom: 30px;
     max-width: 100%;
@@ -1168,7 +1186,7 @@ nav > a {
   }
   .desktop-only{
     display:none;
-  }
+  } */
   .fifty-five-width{
     max-width: 75%;
     margin:auto;
