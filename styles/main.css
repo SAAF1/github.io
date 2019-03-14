@@ -939,13 +939,16 @@ nav > a {
 /* .homepage-intro  h1,h2,h3,h4{
   max-width:700px;
 } */
+.homepage-intro {
+  padding: 15vh 0 5vh;
+}
 .homepage-intro > h1{
-  padding-top:15vh;
+  /* padding-top:15vh; */
   padding-bottom: 0vw;
     max-width:700px;
 }
 .homepage-intro > h3{
-  padding-bottom:7vh;
+  /* padding-bottom:7vh; */
     max-width:700px;
 }
 .homepage-intro > h4{
@@ -953,10 +956,15 @@ nav > a {
     max-width:700px;
 }
 
+
 .photogration{
   background-color: #D3C4B1;
   padding-top:2vw;
   padding-bottom:2vw;
+}
+
+.case-study-width{
+  max-width: 300px;
 }
 
  /* PHOTOGRATION PHOTOGRATION PHOTOGRATION PHOTOGRATION PHOTOGRATION PHOTOGRATION PHOTOGRATION */
