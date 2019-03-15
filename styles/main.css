@@ -664,6 +664,7 @@ text-indent: -1rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-column-gap:10vw;
+  grid-row-gap:30px;
 }
 
 .r-small
