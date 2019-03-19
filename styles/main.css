@@ -96,7 +96,7 @@ ol {
 
 li{
   line-height:1.4;
-  margin-bottom:1rem;
+  margin-bottom:.5rem;
   max-width:700px;
 }
 
@@ -598,7 +598,7 @@ display: inline-block;
 
 .line{
   border-bottom: 2px solid #d0c5c5;
-  max-width: 65%;
+  /* max-width: 65%; */
 }
 
 .quote{
@@ -709,7 +709,7 @@ text-indent: -1rem;
 }
 
 .background-arrow{
-  /* background-color: #E6D0A1; */
+  background-color: #E6D0A1;
   /* margin-left:calc(1vh);
   width: 0px;
   height: 0px;
@@ -726,7 +726,8 @@ text-indent: -1rem;
   grid-row:1;
   padding-left:3rem;
   /* padding-top:3rem; */
-  padding-bottom:3rem;
+  /* THe following was enables when the arrow img was active: padding of 3 rem */
+  /* padding-bottom:3rem; */
   padding-right:2rem;
 }
 
@@ -971,6 +972,7 @@ nav > a {
  list-style-position: outside;
  /* REMOVE PADDING */
  padding-top:0px;
+ /* padding-left: 60px; */
  padding-bottom:0px;
  margin-bottom: 0rem;
  margin-top: 0rem;
@@ -980,8 +982,8 @@ nav > a {
 .branding{
   background-color: #E6D0A1;
   background-clip: border-box;
-  min-height: 150px;
-  line-height:150px;
+  min-height: 125px;
+  line-height:125px;
 }
 
 .gradient-gold{
@@ -990,6 +992,17 @@ nav > a {
     background-clip: border-box;
 
 }
+
+.hi-fi-flex{
+  display: flex;
+       /* width: 50%; */
+       height: 100px;
+       margin: auto;
+       /* border-radius: 10px;  */
+       /* border: 3px dashed #1c87c9;  */
+}
+
+
 @media screen and (max-width:1100px){
   h1{
     font-size: 2.5rem;
@@ -1140,9 +1153,9 @@ nav > a {
     display:none;
   } */
   .fifty-five-width{
-    max-width: 75%;
-    margin:auto;
-    display:block;
+    width: 75%;
+    /* margin:auto;
+    display:block; */
   }
 
   .logo-photogration img{
@@ -1333,6 +1346,13 @@ nav > a {
   text-indent: -1rem; */
   }
 
+  .fifty-five-width{
+    width: 85%;
+    max-width: 650px;
+    /* margin:auto;
+    display:block; */
+  }
+
   .footer-icon{
     /* display: grid; */
     grid-template-columns: 30px 30px 30px;
@@ -1373,12 +1393,12 @@ p{
   min-width: 30px;
 }
 
-.fifty-five-width{
+/* .fifty-five-width{
   width: 85%;
   max-width: 650px;
-  margin:auto;
-  display:block;
-}
+  /* margin:auto;
+  display:block; */
+} */
 
 .homepage-intro {
   padding: 10vh 0 0vh;
