@@ -134,9 +134,10 @@ header a {
 
 .inline-block{
   display:grid;
-  grid-template-columns: .9fr 1.7fr;
+  grid-template-columns: auto 1fr;
   grid-column-gap: 0px;
-  align-items: end;
+  align-items: center;
+
 }
 .hide{
   visibility:hidden;
@@ -483,9 +484,8 @@ strong {
 
 .contact{
   background-color: #EBE2D3;
-
-  /* padding: 10.6% */
 }
+
 
 .cta{
 text-decoration:none;
@@ -519,6 +519,13 @@ display: inline-block;
   height: auto;
   min-width: 30%;
 }
+
+/* .uneven-imageformat{
+  max-width:1689px;
+  max-height: 2178px;
+
+  min-width: 30%;
+} */
 
 .textcenter{
   text-align: center;
@@ -860,9 +867,17 @@ text-indent: -1rem;
    font-style: italic;
  }
 
+ .contact h4{
+   max-width:500px;
+ }
+
  /* ABOUT  ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
 .bio-top h3{
   padding-bottom:0px;
+}
+
+.bio-top h1{
+  font-size: 3.5rem;
 }
  .long-version{
      width: 65%;
@@ -983,7 +998,7 @@ nav > a {
 }
 
 .gradient-gold{
-    background-image: linear-gradient(#E6D0A1, #FEF9F3);
+    background-image: linear-gradient(#FEF9F3,#E6D0A1);
     /* background-color: #E6D0A1; */
     background-clip: border-box;
 
@@ -1179,9 +1194,9 @@ nav > a {
   .inline-block{
 
     display:grid;
-    grid-template-columns: 1fr 2.5fr;
+    grid-template-columns: auto 1fr;
     grid-column-gap: 0px;
-    align-items: end;
+    align-items: center;
     /* justify-content: center; */
 
   }
