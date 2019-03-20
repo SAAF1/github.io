@@ -396,10 +396,7 @@ strong {
 
 .footer-icon{
   display: grid;
-  /* grid-template-columns: 30px 30px 30px;
-  grid-column-gap: 30px; */
-  /* grid-template-columns: 30px 30px 30px; */
-  /* align-content: space-around; */
+
   grid-template-columns: 40px 40px 40px;
   /* justify-items: center; */
   justify-content: center;
@@ -410,7 +407,6 @@ strong {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-column-gap: 120px;
-
   /* grid-template-columns: 120px 9fr 7fr 2fr 120px; */
 }
 
@@ -995,11 +991,9 @@ nav > a {
 
 .hi-fi-flex{
   display: flex;
-       /* width: 50%; */
-       height: 100px;
-       margin: auto;
-       /* border-radius: 10px;  */
-       /* border: 3px dashed #1c87c9;  */
+   height: 100px;
+   margin: auto;
+
 }
 
 
@@ -1139,23 +1133,9 @@ nav > a {
 
 /* Breakpoint of hero two column */
 @media screen and (max-width: 670px){
-  /* .hero-image{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    max-width: 100%;
-    height: auto;
-    min-width: 30%;
-  }
-  .mobile-only {
-    display: block;
-  }
-  .desktop-only{
-    display:none;
-  } */
+
   .fifty-five-width{
     width: 75%;
-    /* margin:auto;
-    display:block; */
   }
 
   .logo-photogration img{
@@ -1333,33 +1313,17 @@ nav > a {
     margin:auto;
   }
   .quote{
-  /* font-family: 'Playfair Display',serif;
-  font-style: normal;
-  font-weight: bold;
-  line-height: normal; */
   font-size: 30px;
   line-height: 1.3;
-  /* max-width:85%;
-  text-align: left;
-  margin:auto;
-  color:#755330;
-  text-indent: -1rem; */
   }
 
   .fifty-five-width{
     width: 85%;
     max-width: 650px;
-    /* margin:auto;
-    display:block; */
   }
 
   .footer-icon{
-    /* display: grid; */
     grid-template-columns: 30px 30px 30px;
-    /* justify-content: center;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-column-gap: 40px; */
   }
 }
 
@@ -1393,12 +1357,7 @@ p{
   min-width: 30px;
 }
 
-/* .fifty-five-width{
-  width: 85%;
-  max-width: 650px;
-  /* margin:auto;
-  display:block; */
-} */
+
 
 .homepage-intro {
   padding: 10vh 0 0vh;
@@ -1408,11 +1367,6 @@ p{
   margin:auto;
 }
 
-
-
-/* .height{
-  line-height:50px;
-} */
 
 .tpadding-onehundred{
   padding-top:60px;
