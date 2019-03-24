@@ -114,6 +114,10 @@ header a {
   color: ##332609;
 }
 
+header a:hover h4{
+  color:#9c6d00;
+}
+
 .ralign-grid{
   display:grid;
   max-width: 1vw;
@@ -856,7 +860,7 @@ text-indent: -1rem;
  .even-two-column{
    display:grid;
    grid-template-columns: 1fr 1fr;
-   grid-column-gap: 30px;
+   grid-column-gap: 60px;
    align-items: center;
  }
 
@@ -945,7 +949,7 @@ nav > a {
     font-size:5rem;
 }
 .homepage-intro >h2 {
-  color:#DBA72E;
+  color:#9c6d00;
 }
 .homepage-intro > h3{
     max-width:700px;
