@@ -885,7 +885,7 @@ text-indent: -1rem;
 }
 
 .bio-top h1{
-  font-size: 3.5rem;
+  font-size: 6rem;
 }
  .long-version{
      width: 65%;
@@ -941,7 +941,7 @@ nav > a {
 
 
 .homepage-intro {
-  padding: 15vh 0 5vh;
+  padding: 10vh 0 5vh;
 }
 .homepage-intro > h1{
   padding-bottom: 0vw;
