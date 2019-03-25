@@ -1200,10 +1200,15 @@ nav > a {
     line-height: 1.8;
   }
 
+  .homepage-intro > h1{
+    font-size:4rem;
+  }
+
   .homepage-intro > h3{
       max-width:700px;
       padding-top: 10px;
   }
+
   .lborder{
     float:left;
     border-top: 2px solid black;
@@ -1334,8 +1339,15 @@ nav > a {
     align-items: center;
   }
 
+  .homepage-intro > h1{
+    font-size:3.5rem;
+  }
+  
   .homepage-intro {
     padding: 12vh 0 0vh;
+  }
+  .bio-top h1{
+    font-size: 5rem;
   }
 
   .vector-format{
