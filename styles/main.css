@@ -497,7 +497,7 @@ strong {
 
 .cta{
 text-decoration:none;
-color:black;
+color:#332609;
 background-color: #DBA72E;
 font-family: 'Raleway', sans-serif;
 font-style: normal;
@@ -838,8 +838,10 @@ text-indent: -1rem;
 
  /* GENERAL  GENERAL  GENERAL  GENERAL  GENERAL  GENERAL  GENERAL  GENERAL  GENERAL  GENERAL  */
  a.cta:hover {
-    background-color: #E5BB59;
-   font-weight: bold;
+    /* background-color: #E5BB59;
+   font-weight: bold; */
+   background-color:#332609;
+   color: #DBA72E;
  }
 
 
@@ -886,6 +888,14 @@ text-indent: -1rem;
 
 .bio-top h1{
   font-size: 6rem;
+}
+
+.bio-column{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  align-items: center;
 }
  .long-version{
      width: 65%;
@@ -1342,7 +1352,7 @@ nav > a {
   .homepage-intro > h1{
     font-size:3.5rem;
   }
-  
+
   .homepage-intro {
     padding: 12vh 0 0vh;
   }
