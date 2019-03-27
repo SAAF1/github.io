@@ -405,6 +405,7 @@ strong {
   grid-template-columns: 40px 40px 40px;
   /* justify-items: center; */
   justify-content: center;
+  align-items: center;
 
 
 
@@ -1310,6 +1311,7 @@ nav > a {
     display: grid;
     grid-template-columns: 36px 36px 36px;
     justify-content: center;
+    align-items: center;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-column-gap: 40px;
