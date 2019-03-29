@@ -4,10 +4,10 @@ arrow.addEventListener("click", function (){
   window.scrollBy(0,50);
 });
 
-  arrow.onclick = function{
-    	window.scrollBy(0,50);
-  }
-}
+//   arrow.onclick = function{
+//     	window.scrollBy(0,50);
+//   }
+// }
 
 
 window.onload = function() {
