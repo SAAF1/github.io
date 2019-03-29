@@ -887,6 +887,10 @@ text-indent: -1rem;
  }
 
  /* ABOUT  ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
+.vertical-text{
+    writing-mode: vertical-rl;
+}
+
 .bio-top h3{
   padding-bottom:0px;
 }
@@ -897,10 +901,13 @@ text-indent: -1rem;
 
 .bio-column{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-template-columns: auto auto;
+  grid-column-gap:60px;
+  /* following turned off for vertical text to work. */
+  /* grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   grid-column-gap: 30px;
   grid-row-gap: 30px;
-  align-items: center;
+  align-items: center; */
 }
  .long-version{
      width: 65%;
