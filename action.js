@@ -1,6 +1,6 @@
-function onReady{
-  var arrow = document.getElementById('arrow').addEventListener("click", displayDate);;
-arrow.addEventListener("click", function {
+function onReady(){
+  var arrow = document.getElementById('arrow').addEventListener("click", displayDate);
+arrow.addEventListener("click", function (){
   window.scrollBy(0,50);
 });
 

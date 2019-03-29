@@ -882,6 +882,10 @@ text-indent: -1rem;
    max-width:500px;
  }
 
+ .max-seven-hundred{
+   max-width:700px;
+ }
+
  /* ABOUT  ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
 .bio-top h3{
   padding-bottom:0px;
