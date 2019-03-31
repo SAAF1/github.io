@@ -613,6 +613,17 @@ display: inline-block;
   /* max-width: 65%; */
 }
 
+.heading-width{
+  width:250px;
+  float:left;
+  padding-right:30px;
+}
+
+.top-line{
+  border-top: #DBA72E solid;
+  width:100px;
+}
+
 .quote{
 font-family: 'Playfair Display',serif;
 font-style: normal;
