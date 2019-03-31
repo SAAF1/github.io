@@ -636,8 +636,10 @@ text-indent: -1rem;
 .bio-top{
   background-color: #E6D0A1;
   padding-top:15vh;
-
+  /* height:1000px; */
+	max-height: calc(55vw + 60vh);
 }
+
 .clear{
   padding-left:0%;
   padding-right: 0%;
@@ -889,7 +891,21 @@ text-indent: -1rem;
  /* ABOUT  ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
 .vertical-text{
     writing-mode: vertical-rl;
+    /* width: 60px; */
+    white-space: nowrap;
 }
+
+.float-right{
+  float:right;
+}
+
+.rotate{
+  transform: rotate(-90deg);
+  position:absolute;
+  /* float:left; */
+}
+
+
 
 .bio-top h3{
   padding-bottom:0px;
@@ -1126,6 +1142,16 @@ nav > a {
 
   header img {
     max-width:50px;
+  }
+
+  .bio-top{
+    /* background-color: #E6D0A1;
+    padding-top:15vh; */
+    /* height:1000px; */
+  	max-height: inherit;
+  }
+  .hide-seven-hundred{
+    display:none;
   }
 
   .venn-wrapper {
