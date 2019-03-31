@@ -624,6 +624,10 @@ display: inline-block;
   width:100px;
 }
 
+.hide{
+  visibility:hidden;
+}
+
 .quote{
 font-family: 'Playfair Display',serif;
 font-style: normal;
@@ -648,7 +652,7 @@ text-indent: -1rem;
   background-color: #E6D0A1;
   padding-top:15vh;
   /* height:1000px; */
-	max-height: calc(55vw + 60vh);
+	max-height: calc(65vw + 60vh);
 }
 
 .clear{
@@ -904,6 +908,11 @@ text-indent: -1rem;
     writing-mode: vertical-rl;
     /* width: 60px; */
     white-space: nowrap;
+    padding-top:0vw;
+}
+.vertical-text-no-wrap{
+    writing-mode: vertical-rl;
+    font-size:6rem;
 }
 
 .float-right{
@@ -1090,6 +1099,14 @@ nav > a {
     font-size: 2.5rem;
   }
 }
+@media screen and (max-width: 1000px){
+  .bio-top{
+    background-color: #E6D0A1;
+    padding-top:15vh;
+    /* height:1000px; */
+  	max-height: calc(55vw + 60vh);
+  }
+}
 
 @media screen and (max-width:980px){
   h1{
@@ -1132,6 +1149,7 @@ nav > a {
     }
 
 }
+
 @media screen and (max-width: 788px){
   .desktop-only{
     display:none;
