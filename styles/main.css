@@ -924,10 +924,19 @@ text-indent: -1rem;
     /* width: 60px; */
     white-space: nowrap;
     padding-top:0vw;
+    font-size:6rem;
+    justify-self:start;
+    line-height:1;
 }
 .vertical-text-no-wrap{
     writing-mode: vertical-rl;
     font-size:6rem;
+    justify-self:start:
+    line-height:1;
+}
+
+.justify-right{
+  justify-self:end;
 }
 
 .float-right{
@@ -946,9 +955,9 @@ text-indent: -1rem;
   padding-bottom:0px;
 }
 
-.bio-top h1{
+/* .bio-top h1{
   font-size: 6rem;
-}
+} */
 
 .bio-column{
   display: grid;
