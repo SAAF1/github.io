@@ -660,7 +660,7 @@ text-indent: -1rem;
   background-color: #EBE2D3;
   padding-top:15vh;
   /* height:1000px; */
-	max-height: calc(65vw + 60vh);
+	max-height: calc(60vw + 40vh);
 }
 
 .clear{
