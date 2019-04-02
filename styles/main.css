@@ -873,6 +873,10 @@ text-indent: -1rem;
    color: #DBA72E;
  }
 
+ i{
+   font-style: 400i;
+ }
+
 
  .page-links >a >image {
    max-width:50px;
