@@ -78,7 +78,13 @@ max-width: 700px;
   letter-spacing: 2px;
 }
 
+em {
+  font-style: italic;
+}
 
+.light-lato{
+  font-weight: 300;
+}
 
 p{
   font-size:1.5rem;
@@ -841,6 +847,7 @@ text-indent: -1rem;
     width: 90%;
     height: 100%;
     box-shadow: 1px 1px 4px .5px grey;
+    background-color: #F6F5F5;
 
 }
 
@@ -873,9 +880,9 @@ text-indent: -1rem;
    color: #DBA72E;
  }
 
- i{
+ /* i{
    font-style: 400i;
- }
+ } */
 
 
  .page-links >a >image {
@@ -1034,6 +1041,7 @@ nav > a {
   padding-bottom: 0vw;
     max-width:700px;
     font-size:5rem;
+    line-height:1.1;
 }
 .homepage-intro >h2 {
   color:#9c6d00;
