@@ -46,7 +46,7 @@ font-family: 'Lato', sans-serif;
 font-style: normal;
 font-weight: normal;
 line-height: 1.6;
-font-size: 22px;
+font-size: 19px;
 padding-top:.5vw;
 padding-bottom:.5vw;
 /* OLD 22px; */
@@ -1104,6 +1104,10 @@ nav > a {
   font-weight: 400i;
 }
 
+.extra-row-gap{
+  grid-row-gap: 90px;
+}
+
 .user-tasks{
   /* FROM BULLETLIST */
   padding-left:1.5%;
@@ -1221,6 +1225,10 @@ nav > a {
     max-width: 100%;
     height: auto;
     min-width: 30%;
+  }
+
+  .smallest-width{
+    width:75%;
   }
 }
 
@@ -1355,6 +1363,15 @@ nav > a {
     border-top: 2px solid black;
     width:90%
   }
+
+  .lpadding-thirty{
+    padding-left: 15px;
+  }
+
+  .rpadding-thirty{
+    padding-right: 15px;
+  }
+
   .inline-block{
 
     display:grid;
@@ -1419,6 +1436,14 @@ nav > a {
       width: 80%;
       margin:auto;
   }
+
+  .min-width{
+    width:90%;
+  }
+
+  .smallest-width{
+    width:85%;
+  }
   .three-column{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -1428,7 +1453,7 @@ nav > a {
   .persona-three-column{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-column-gap:90px;
+    grid-column-gap:30px;
    grid-row-gap: 90px;
   }
   .footer-icon{
@@ -1499,6 +1524,27 @@ nav > a {
     max-width:80%;
     margin:auto;
   }
+
+  .min-width{
+    width:95%;
+  }
+
+  .smallest-width{
+    width:95%%;
+  }
+
+  .lpadding-thirty{
+    padding-left: 10px;
+  }
+
+  .rpadding-thirty{
+    padding-left: 10px;
+  }
+
+  .full-rectangle{
+    padding:0px;
+  }
+
   .quote{
   font-size: 30px;
   line-height: 1.3;
