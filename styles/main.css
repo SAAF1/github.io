@@ -694,6 +694,13 @@ text-indent: -1rem;
   grid-row-gap: 30px;
 }
 
+.r-two-column-small{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
 .r-hero-two-column{
   display: grid;
 
