@@ -71,8 +71,7 @@ max-width: 700px;
   font-weight:normal;
   line-height: normal;
   font-size: 14px;
-  /* color: #332609 */
-  /* color: #bf8d1a; */
+
   color: #654700;
   text-transform:uppercase;
   letter-spacing: 2px;
@@ -97,13 +96,16 @@ b,strong{
 }
 
 ol {
-  list-style-type: decimal;
+  /* list-style-type: decimal; */
+  list-style-type:decimal-leading-zero;
 }
 
 li{
   line-height:1.4;
   margin-bottom:.5rem;
   max-width:700px;
+  font-size:19px;
+
 }
 
 img {
@@ -124,6 +126,9 @@ header a:hover h4{
   color:#9c6d00;
 }
 
+figcaption{
+  display:block;
+}
 .ralign-grid{
   display:grid;
   max-width: 1vw;
@@ -525,6 +530,8 @@ max-width:fit-content;
 display: inline-block;
 }
 
+
+
 .double-cta{
   /* display:block;
   width:100%;
@@ -532,8 +539,10 @@ display: inline-block;
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
   grid-gap:30px;
+}
 
-
+.double-cta .cta{
+  margin:30px auto 30px 0;
 }
 
 .imageformat{
@@ -1297,7 +1306,7 @@ nav > a {
 
   .venn-tright{
     grid-column:1/span 2;
-    margin:0 auto;
+    margin:0 auto 0 0;
     grid-row:3;
     padding-right:1rem;
     padding-top:3rem;
@@ -1348,6 +1357,14 @@ nav > a {
   }
   h4{
     line-height: 1.8;
+  }
+
+  .h5{
+    padding-top:3vw;
+  }
+
+  .fake-header{
+    max-width:90%;
   }
 
   .homepage-intro > h1{
@@ -1500,6 +1517,10 @@ nav > a {
 
 }
 @media screen and (max-width:400px){
+
+  .fake-header{
+    max-width:95%;
+  }
   .logo-photogration{
     display:block;
     grid-template-columns: auto 1fr;
@@ -1549,7 +1570,7 @@ nav > a {
   }
 
   .full-rectangle{
-    padding:0px;
+    padding:10px;
   }
 
   .quote{

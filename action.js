@@ -1,15 +1,12 @@
 function onReady(){
-  var arrow = document.getElementById('arrow').addEventListener("click", displayDate);
+  var arrow = document.getElementById('arrow');
 arrow.addEventListener("click", function (){
-  window.scrollBy(0,50);
+  window.scrollTo({
+    top:300,
+    behavior:"smooth"
+  });
 });
-
-//   arrow.onclick = function{
-//     	window.scrollBy(0,50);
-//   }
-// }
-
-
+}
 window.onload = function() {
   onReady();
 };
