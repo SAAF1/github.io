@@ -100,11 +100,17 @@ ol {
   list-style-type:decimal-leading-zero;
 }
 
+ol.ol-inside{
+   list-style-position: inside;
+}
+
 li{
   line-height:1.4;
   margin-bottom:.5rem;
   max-width:700px;
   font-size:19px;
+  /* float:left; */
+  /* display:inline; */
 
 }
 
@@ -129,6 +135,11 @@ header a:hover h4{
 figcaption{
   display:block;
 }
+
+li h4{
+  display:inline;
+}
+
 .ralign-grid{
   display:grid;
   max-width: 1vw;
@@ -1566,6 +1577,10 @@ nav > a {
 
 }
 @media screen and (max-width:500px){
+
+  li{
+    font-size:18px;
+  }
   .heading-width{
     padding-right:0px;
     float:none;
@@ -1575,6 +1590,7 @@ nav > a {
     padding-top:15vw;
     padding-bottom:15vw;
   }
+
 }
 @media screen and (max-width:400px){
 
@@ -1668,6 +1684,10 @@ h4{
 
 p{
   font-size: 16px;
+}
+
+li{
+  font-size:16px;
 }
 
 .resume{
