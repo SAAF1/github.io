@@ -675,7 +675,7 @@ text-indent: -1rem;
   background-color: #EBE2D3;
   padding-top:15vh;
   /* height:1000px; */
-	max-height: calc(60vw + 40vh);
+	max-height: calc(130vmin);
 }
 
 .clear{
@@ -1182,15 +1182,32 @@ nav > a {
       background-color: #EBE2D3;
     padding-top:15vh;
     /* height:1000px; */
-  	max-height: calc(55vw + 60vh);
+  	max-height: calc(125vmin);
   }
 }
 
+
+@media screen and (max-width: 1000px){
+    .bio-top{
+    	max-height: calc(120vmin);
+    }
+}
 @media screen and (max-width:980px){
   h1{
     font-size: 2.3rem;
   }
 }
+@media screen and (max-width: 950px){
+    .bio-top{
+    	max-height: calc(120vmin);
+    }
+}
+@media screen and (max-width: 930px){
+    .bio-top{
+    	max-height: calc(115vmin);
+    }
+}
+
 /* TABLET */
 @media screen and (max-width: 900px){
   h1,h2,h3,h4,body,p{
@@ -1225,10 +1242,26 @@ nav > a {
     .small{
       display:block;
     }
+    .bio-top{
+      max-height: calc(110vmin);
+    }
 
+}
+@media screen and (max-width: 850px){
+    .bio-top{
+    	max-height: calc(105vmin);
+    }
+}
+@media screen and (max-width: 850px){
+    .bio-top{
+    	max-height: calc(105vmin);
+    }
 }
 
 @media screen and (max-width: 788px){
+  .bio-top{
+    max-height: calc(105vmin);
+  }
   .desktop-only{
     display:none;
   }
@@ -1245,6 +1278,11 @@ nav > a {
 
   .smallest-width{
     width:75%;
+  }
+}
+@media screen and (max-width:750px){
+  .bio-top{
+    max-height: calc(100vmin);
   }
 }
 
