@@ -2,7 +2,7 @@ function onReady(){
   var arrow = document.getElementById('arrow');
 arrow.addEventListener("click", function (){
   window.scrollTo({
-    top:450,
+    top:600,
     behavior:"smooth"
   });
 });

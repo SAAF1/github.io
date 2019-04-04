@@ -1074,8 +1074,8 @@ nav > a {
 
 .photogration{
   background-color: #D3C4B1;
-  padding-top:7vw;
-  padding-bottom:7vw;
+  padding-top:10vw;
+  padding-bottom:10vw;
 }
 
 .case-study-width{
@@ -1259,6 +1259,10 @@ nav > a {
 }
 
 @media screen and (max-width: 788px){
+  .photogration{
+    padding-top:15vmin;
+    padding-bottom:15vmin;
+  }
   .bio-top{
     max-height: calc(105vmin);
   }
@@ -1291,6 +1295,13 @@ nav > a {
 
   header img {
     max-width:50px;
+  }
+
+  .bio-column{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap:0px;
+
   }
 
   .bio-top{
@@ -1553,6 +1564,17 @@ nav > a {
         margin:auto;
   }
 
+}
+@media screen and (max-width:500px){
+  .heading-width{
+    padding-right:0px;
+    float:none;
+  }
+
+  .photogration{
+    padding-top:15vw;
+    padding-bottom:15vw;
+  }
 }
 @media screen and (max-width:400px){
 
