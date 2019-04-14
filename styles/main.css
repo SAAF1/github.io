@@ -890,7 +890,8 @@ text-indent: -1rem;
   /* used to use grid but caused cta in top of case study to center align */
   /* display:grid; */
   display:block;
-  float:left;
+  /* float:left; */
+
 }
 
 .wide{
