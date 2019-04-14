@@ -745,6 +745,11 @@ text-indent: -1rem;
 
 }
 
+.user-flows{
+  display:block;
+  float:none;
+}
+
 .problem-answer{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
