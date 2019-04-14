@@ -747,7 +747,7 @@ text-indent: -1rem;
 
 .user-flows{
   display:block;
-  float:none;
+  width:100%;
 }
 
 .problem-answer{
