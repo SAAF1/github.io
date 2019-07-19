@@ -179,6 +179,15 @@ li h4{
   width:90%
 }
 
+.off-white{
+  background-color: #FCFAF8;
+  background-clip: border-box;
+}
+.light-grey{
+  background-color: #F1F1F1;
+  background-clip: border-box;
+}
+
 
 
 head img {
@@ -503,7 +512,7 @@ strong {
 }
 
 .photogration{
-  background-color: #D3C4B1;
+  background-color: #F1F1F1;
 }
 
 .ptext{
@@ -1090,7 +1099,7 @@ nav > a {
 
 
 .photogration{
-  background-color: #D3C4B1;
+  background-color: #F1F1F1;
   padding-top:10vw;
   padding-bottom:10vw;
 }
