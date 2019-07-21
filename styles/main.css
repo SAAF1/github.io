@@ -512,8 +512,9 @@ strong {
 }
 
 .photogration{
-  background-color: #F1F1F1;
+  /* background-color: #F1F1F1; */
 }
+
 
 .ptext{
     display: grid;
@@ -530,7 +531,8 @@ strong {
 
 
 .contact{
-  background-color: #EBE2D3;
+  /* background-color: #EBE2D3; */
+  background-color: #F1F1F1;
 }
 
 
@@ -1099,7 +1101,7 @@ nav > a {
 
 
 .photogration{
-  background-color: #F1F1F1;
+  /* background-color: #F1F1F1; */
   padding-top:10vw;
   padding-bottom:10vw;
 }
