@@ -989,6 +989,18 @@ display:grid;
   grid-row: 2;
 }
 
+.random1{
+  display:block;
+}
+
+.random2{
+  display:none;
+}
+
+.random3{
+  display:none;
+}
+
 .vertical-text{
     writing-mode: vertical-rl;
     /* width: 60px; */
