@@ -694,10 +694,10 @@ text-indent: -1rem;
 
 .bio-top{
   /* background-color: #E6D0A1; */
-  background-color: #EBE2D3;
+  /* background-color: #EBE2D3; */
   padding-top:15vh;
   /* height:1000px; */
-	max-height: calc(130vmin);
+	/* max-height: calc(130vmin); */
 }
 
 .clear{
@@ -974,6 +974,21 @@ text-indent: -1rem;
  }
 
  /* ABOUT  ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
+.design-process{
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  /* grid-template-rows: 1fr; */
+  margin: auto;
+  /* grid-row-gap: 10px; */
+  grid-gap: 30px;
+}
+
+.design-process-bottom{
+display:grid;
+  grid-column: 2;
+  grid-row: 2;
+}
+
 .vertical-text{
     writing-mode: vertical-rl;
     /* width: 60px; */
@@ -1210,14 +1225,14 @@ nav > a {
       background-color: #EBE2D3;
     padding-top:15vh;
     /* height:1000px; */
-  	max-height: calc(125vmin);
+  	/* max-height: calc(125vmin); */
   }
 }
 
 
 @media screen and (max-width: 1000px){
     .bio-top{
-    	max-height: calc(120vmin);
+    	/* max-height: calc(120vmin); */
     }
 }
 @media screen and (max-width:980px){
@@ -1227,12 +1242,12 @@ nav > a {
 }
 @media screen and (max-width: 950px){
     .bio-top{
-    	max-height: calc(120vmin);
+    	/* max-height: calc(120vmin); */
     }
 }
 @media screen and (max-width: 930px){
     .bio-top{
-    	max-height: calc(115vmin);
+    	/* max-height: calc(115vmin); */
     }
 }
 
@@ -1271,18 +1286,18 @@ nav > a {
       display:block;
     }
     .bio-top{
-      max-height: calc(110vmin);
+      /* max-height: calc(110vmin); */
     }
 
 }
 @media screen and (max-width: 850px){
     .bio-top{
-    	max-height: calc(105vmin);
+    	/* max-height: calc(105vmin); */
     }
 }
 @media screen and (max-width: 850px){
     .bio-top{
-    	max-height: calc(105vmin);
+    	/* max-height: calc(105vmin); */
     }
 }
 
@@ -1292,7 +1307,7 @@ nav > a {
     padding-bottom:15vmin;
   }
   .bio-top{
-    max-height: calc(105vmin);
+    /* max-height: calc(105vmin); */
   }
   .desktop-only{
     display:none;
@@ -1314,7 +1329,7 @@ nav > a {
 }
 @media screen and (max-width:750px){
   .bio-top{
-    max-height: calc(100vmin);
+    /* max-height: calc(100vmin); */
   }
 }
 
