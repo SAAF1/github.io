@@ -13,13 +13,11 @@ var randomfact = document.getElementById('randomfact');
 
 randomfact.addEventListener("click", function (){
   if(x = 0){
-    // document.getElementsById("random1")[0].setAttribute("class", "democlass");
     document.getElementById('random1').style.display = 'block';
     document.getElementById('random3').style.display = 'none';
     x += 1;
   }
   if(x = 1){
-    // document.getElementsById("random1")[0].setAttribute("class", "democlass");
     document.getElementById('random2').style.display = 'block';
     document.getElementById('random1').style.display = 'none';
     x += 1;
@@ -31,10 +29,6 @@ randomfact.addEventListener("click", function (){
     x = 0;
   }
 })
-
-// document.getElementsById("")[0].setAttribute("class", "democlass");
-
-
 
 }
 

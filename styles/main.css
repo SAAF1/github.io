@@ -1225,6 +1225,12 @@ nav > a {
 
 }
 
+/* PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE     */
+.statistics{
+  display:grid;
+  grid-template-columns: 1fr 5.5fr;
+  grid-column-gap: 0
+}
 
 @media screen and (max-width:1100px){
   h1{
