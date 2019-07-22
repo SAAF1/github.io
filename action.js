@@ -8,6 +8,17 @@ arrow.addEventListener("click", function (){
   });
 });
 
+// function quotes(){
+//
+// var aquote = new Array;
+// aquote[0]="\"It was a beautiful day.\"";
+// aquote[1]="\"Dark and stormy night.\"";
+// aquote[2]="\"Quote 3.\""
+//
+// rdmQuote = Math.floor(Math.random()*aquote.length);
+// document.getElementById("txtbox") .value=aquote[rdmQuote];
+// }
+
 var x = 0;
 var randomfact = document.getElementById('randomfact');
 
