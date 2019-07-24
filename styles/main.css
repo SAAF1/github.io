@@ -995,7 +995,8 @@ text-indent: -1rem;
  /* ABOUT  ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT */
 .design-process{
   display: grid;
-  grid-template-columns: 1fr 1.5fr 1fr;
+  /* grid-template-columns: 1fr 1.5fr 1fr; */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   /* grid-template-rows: 1fr; */
   margin: auto;
   /* grid-row-gap: 10px; */
