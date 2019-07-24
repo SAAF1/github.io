@@ -961,6 +961,14 @@ text-indent: -1rem;
    align-items: center;
  }
 
+ .min-even-two-column{
+   display:grid;
+   grid-template-columns: repeat(auto-fit, minmax(213px, 1fr));
+   /* grid-template-columns: 1fr 1fr; */
+   grid-column-gap: 60px;
+   align-items: center;
+ }
+
  .border{
    border:1px solid #eaeaea;
 }
