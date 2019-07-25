@@ -1002,6 +1002,9 @@ text-indent: -1rem;
   /* grid-row-gap: 10px; */
   grid-gap: 30px;
 }
+.mobile-design-process{
+  display:none;
+}
 
 .design-process-bottom{
 display:grid;
@@ -1365,6 +1368,16 @@ nav > a {
     width:75%;
   }
 }
+  /* About page grid */
+@media screen and (max-width:776px){
+  .design-process{
+    display:none;
+  }
+  .mobile-design-process{
+    display:block;
+  }
+}
+
 @media screen and (max-width:750px){
   .bio-top{
     /* max-height: calc(100vmin); */
