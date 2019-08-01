@@ -1020,9 +1020,28 @@ text-indent: -1rem;
   display:none;
 }
 
+.design-process-photo{
+display:grid;
+  grid-column: 2;
+  grid-row-start: span 2;
+  /* grid-row-end: 3; */
+}
+
 .design-process-bottom{
 display:grid;
   grid-column: 2;
+  grid-row: 2;
+}
+
+.design-process-bottom-left{
+display:grid;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.design-process-bottom-right{
+display:grid;
+  grid-column: 3;
   grid-row: 2;
 }
 
