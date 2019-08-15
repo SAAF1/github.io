@@ -927,6 +927,10 @@ text-indent: -1rem;
   font-weight: bold;
 }
 
+.display-style{
+  /* display:block; */
+}
+
  /* GENERAL  GENERAL  GENERAL  GENERAL  GENERAL  GENERAL  GENERAL  GENERAL  GENERAL  GENERAL  */
  a.cta:hover {
     /* background-color: #E5BB59;
@@ -1054,6 +1058,22 @@ display:grid;
 }
 
 .random3{
+  display:none;
+}
+
+.process1{
+  display:block;
+}
+
+.process2{
+  display:none;
+}
+
+.process3{
+  display:none;
+}
+
+.process4{
   display:none;
 }
 
@@ -1731,6 +1751,10 @@ nav > a {
     font-size: 5rem;
   }
 
+
+.display-style{
+  display:none;
+}
   .vector-format{
    /* display: block;
    margin-left: auto;
@@ -1804,6 +1828,16 @@ p{
 
 li{
   font-size:16px;
+}
+
+.r-rectangle{
+    border-radius: 15px;
+    padding: 15px;
+    width: 90%;
+    height: 100%;
+    box-shadow: 1px 1px 4px .5px grey;
+    background-color: #F6F5F5;
+
 }
 
 .resume{
