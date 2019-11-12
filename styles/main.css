@@ -1179,7 +1179,12 @@ nav > a {
   padding-left:20px;
 }
 
-
+.double-small-frame{
+  display: none;
+}
+.double-wide-frame{
+  display: block;
+}
 
 .homepage-intro {
   padding: 10vh 0 5vh;
@@ -1332,6 +1337,13 @@ nav > a {
 @media screen and (max-width:980px){
   h1{
     font-size: 2.3rem;
+  }
+
+  .double-small-frame{
+    display: block;
+  }
+  .double-wide-frame{
+    display: none;
   }
 }
 @media screen and (max-width: 950px){
@@ -1726,6 +1738,7 @@ nav > a {
     padding-top:15vw;
     padding-bottom:15vw;
   }
+
 
 }
 @media screen and (max-width:400px){
