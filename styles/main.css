@@ -199,7 +199,8 @@ li h4{
 }
 
 .off-white{
-  background-color: #F7F7F7;
+  /* background-color: #F7F7F7; */
+  background-color: #FBFBFB;
   /* background-color: #FCFAF8; */
   background-clip: border-box;
 }
@@ -961,7 +962,8 @@ text-indent: -1rem;
 
 
    background-color:#332609;
-   color: #F7F7F7;
+   /* color: #F7F7F7; */
+   color:#FBFBFB;
    /* background-color:#332609; */
    /* color: #332609; */
    /* color:#F7F7F7; */
