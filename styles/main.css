@@ -1,7 +1,11 @@
 body{
   font-size: 10px;
   /* font-family: 'Lato', sans-serif; */
-  font-family: 'Montserrat', sans-serif;
+
+/* Pre-Almond */
+  /* font-family: 'Montserrat', sans-serif; */
+
+  font-family: 'Manrope', sans-serif;
   font-style:normal;
   font-weight:400;
   line-height: 1.8rem;
@@ -11,7 +15,9 @@ body{
 
 h1,h2{
     /* font-family:'Lato', sans-serif; */
-    font-family:'Montserrat', sans-serif;
+    /* PreAlmond */
+    /* font-family:'Montserrat', sans-serif; */
+    font-family: 'Manrope', sans-serif;
 
 }
 h1,h2,h3{
@@ -43,9 +49,12 @@ max-width:800px;
 
 h3{
 /* font-family: 'Lato', sans-serif; */
-font-family: 'Montserrat', sans-serif;
+/* Pre-Almond */
+/* font-family: 'Montserrat', sans-serif; */
+
+font-family: 'Manrope', sans-serif;
 /* font-size: 1.5rem; */
-font-size: 1.3rem;
+font-size: 1.7rem;
 /* margin-bottom: 25px; */
 padding-top:.5vw;
 padding-bottom:.5vw;
@@ -55,7 +64,10 @@ max-width:500px;
 }
 h4{
 /* font-family: 'Lato', sans-serif; */
-font-family: 'Montserrat', sans-serif;
+/* Pre-Almond */
+/* font-family: 'Montserrat', sans-serif; */
+
+font-family: 'Manrope', sans-serif;
 font-style: normal;
 font-weight: normal;
 line-height: 1.6;
@@ -79,7 +91,9 @@ max-width: 700px;
 }
 
 .h6{
-  font-family: 'Lato', sans-serif;
+  /* Pre-Almond */
+  /* font-family: 'Lato', sans-serif; */
+  font-family: 'Manrope', sans-serif;
   font-style: normal;
   font-weight:normal;
   line-height: normal;
@@ -105,7 +119,9 @@ p{
   max-width:700px;
 }
 b,strong{
-  font-weight:500;
+  /* Pre-Almond */
+  /* font-weight:500; */
+  font-weight:700;
 }
 
 ol {
@@ -200,12 +216,17 @@ li h4{
 
 .off-white{
   /* background-color: #F7F7F7; */
-  background-color: #FBFBFB;
+
+/* PreAlmond Off-White: */
+  /* background-color: #FBFBFB; */
+  background-color: #FDFDFD
   /* background-color: #FCFAF8; */
   background-clip: border-box;
 }
 .light-grey{
-  background-color: #F1F1F1;
+/* PreAlmond Off-White: */
+  /* background-color: #F1F1F1; */
+  background-color: #F8F8F8;
   background-clip: border-box;
 }
 

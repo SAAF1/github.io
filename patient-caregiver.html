@@ -4,7 +4,12 @@
     <title>Portfolio | {Abraham Friedman}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Playfair+Display:400,400i,700" rel="stylesheet">
+
+    <!-- Pre-Almond Font -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i|Playfair+Display:400,400i,700" rel="stylesheet"> -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
@@ -52,6 +57,9 @@
   </div>
 </div>
 </div>
+
+
+
 <img class="" alt="Contact-Priority" src=images/ContactPriorityCropped1.png>
 
 <!-- Here's where I create another bloc of centered text -->
@@ -73,8 +81,10 @@
   </div>
 </div>
 
-<img class="tpadding-thirty" alt="Contact-Priority" src=images/cpcReach-Contact-Priority.png>
-<figcaption>Old Caregiver Dashboard</figcaption>
+<div class="min-width tpadding-thirty"><div class="smallest-width"><h4>[Old Caregiver Dashboard]</h4></div></div>
+<img class="bpadding-thirty" alt="Contact-Priority" src=images/cpcReach-Contact-Priority.png>
+<!-- <div class="min-width bpadding-sixty"><div class="smallest-width"><h4>[Old Caregiver Dashboard]</h4></div></div> -->
+<!-- <figcaption>Old Caregiver Dashboard</figcaption> -->
 
 <!-- Back to min centered text -->
 <div class="min-width">
@@ -83,7 +93,7 @@
     <h4>Caregivers had to scroll through a list of recent vital readings and manually prioritize alerts and other issues. This was inefficient, didn’t scale, and risked overlooking urgent cases. Between examining the outgoing system, interviewing current RPM caregivers, and looking at competitors’ solutions we came up with the following requirements:
     </h4>
 
-    <h4 class="tpadding-thirty">Solution Requirements:<br></h4>
+    <h4 class="tpadding-thirty"><strong>Solution Requirements:</strong><br></h4>
       <ul class="user-tasks max-widt">
         <li><h4>Prioritization of patients based on medical need and billing cycles.</h4></li>
         <li><h4>Ability to narrow list of recent vitals with filters and sort features</h4></li>
@@ -107,8 +117,15 @@
 
 
   </div>
-  <img class="tpadding-thirty bpadding-thirty" alt="Contact-Priority" src=images/TabsShortWidth.png>
+</div>
 
+<div class="light-grey">
+  <div class="min-width">
+    <img class="light-grey tpadding-thirty bpadding-thirty" alt="Contact-Priority" src=images/TabsShortWidth.png>
+  </div>
+</div>
+
+<div class="min-width">
   <div class="smallest-width">
 
     <h2 class="">Visual Design</h2>
@@ -117,7 +134,7 @@
    <h2 class="tpadding-sixty">Patient Card Flow</h2>
    <h4>Caregivers would use the first tab, “Contact Priority,” to pick up a patient card. By default the feed is populated with the patented “Almond Rank” but can be sorted and filtered in numerous ways to fit different use cases.</h4>
 
-   <h4>Requirements Met</h4>
+   <h4><strong>Requirements Met</strong></h4>
    <ul class="user-tasks max-widt">
      <li><h4>Prioritization of patients based on medical need and billing cycles</h4></li>
      <li><h4>Ability to narrow list of recent vitals with filters and sort features</h4></li>
@@ -144,7 +161,7 @@
 
     <h4>If the caregiver solves the patient’s current issue, the card will move to “Recent.” Otherwise, the card will move back to “Contact Priority,” though a record of the interaction will still be logged in “Recent” which contains all history of patient-caregiver interactions. Searching for a patient by name defaults to the “All” tab which also doubles as an alphabetized patient list.</h4>
 
-    <h4>Requirements Met</h4>
+    <h4><strong>Requirements Met</strong></h4>
     <ul class="user-tasks max-widt">
       <li><h4>Method to prevent multiple caregivers from clicking on the same file at once</h4></li>
       <li><h4>History of recent interactions in event of an audit and for future ML/AI algorithms</h4></li>
