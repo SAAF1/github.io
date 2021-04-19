@@ -1318,6 +1318,13 @@ nav > a {
   grid-row-gap: 30px;
 }
 
+
+.intro-two-column{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap:45px;
+}
+
 .max-seven-hundred{
   max-width: 700px;
 }
