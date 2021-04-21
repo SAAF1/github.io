@@ -55,12 +55,16 @@
       </div></h4>
      </div>
   </div>
+
+  <img class="tpadding-thirty" alt="Contact-Priority" src=images/ContactPriorityCropped1.png>
+
+
 </div>
 </div>
 
 
 
-<img class="" alt="Contact-Priority" src=images/ContactPriorityCropped1.png>
+<!-- <img class="" alt="Contact-Priority" src=images/ContactPriorityCropped1.png> -->
 
 <!-- Here's where I create another bloc of centered text -->
 <div class="tpadding-sixty min-width">
@@ -79,16 +83,27 @@
     <h4>Almond, an early stage startup, partnered with an existing remote patient monitoring practice. Almond’s role was to replace a low-code/no code system which made it difficult for caregivers to prioritize patients.</h4>
 
   </div>
+
+  <!-- <div class="light-grey">
+  <div class="tpadding-thirty"><div class="smallest-width"><h4>[Old Caregiver Dashboard]</h4></div></div>
+  <img class="bpadding-thirty" alt="Contact-Priority" src=images/cpcReach-Dashboard.png>
+ </div> -->
+
 </div>
 
-<div class="min-width tpadding-thirty"><div class="smallest-width"><h4>[Old Caregiver Dashboard]</h4></div></div>
-<img class="bpadding-thirty" alt="Contact-Priority" src=images/cpcReach-Dashboard.png>
-<!-- <div class="min-width bpadding-sixty"><div class="smallest-width"><h4>[Old Caregiver Dashboard]</h4></div></div> -->
-<!-- <figcaption>Old Caregiver Dashboard</figcaption> -->
+<div class="light-grey">
+  <div class="min-width">
+    <div class="tpadding-thirty"><div class=""><h4>[Old Caregiver Dashboard]</h4></div></div>
+    <img class="bpadding-thirty" alt="Contact-Priority" src=images/cpcReach-Dashboard.png>
+  </div>
+</div>
+
+<!-- <div class="min-width tpadding-thirty"><div class="smallest-width"><h4>[Old Caregiver Dashboard]</h4></div></div>
+<img class="bpadding-thirty" alt="Contact-Priority" src=images/cpcReach-Dashboard.png> -->
 
 <!-- Back to min centered text -->
 <div class="min-width">
-  <div class="smallest-width">
+  <div class="smallest-width tpadding-thirty">
 
     <h4>Caregivers had to scroll through a list of recent vital readings and manually prioritize alerts and other issues. This was inefficient, didn’t scale, and risked overlooking urgent cases. Between examining the outgoing system, interviewing current RPM caregivers, and looking at competitors’ solutions we came up with the following requirements:
     </h4>
@@ -128,41 +143,51 @@
 <div class="min-width">
   <div class="smallest-width">
 
-    <h2 class="">Visual Design</h2>
+    <h2 class="tpadding-sixty">Visual Design</h2>
     <h4>Designs generally adhere to Material Design guidelines and some components were pulled from a paid material design library and modified to fit our use case. We used an 8-point grid and adopted the font styles and colors of the design library except for the Almond’s orange brand color.</h4>
 
-   <h2 class="tpadding-sixty">Patient Card Flow</h2>
+   <h2 class="tpadding-thirty">Patient Card Flow</h2>
    <h4>Caregivers would use the first tab, “Contact Priority,” to pick up a patient card. By default the feed is populated with the patented “Almond Rank” but can be sorted and filtered in numerous ways to fit different use cases.</h4>
 
    <h4><strong>Requirements Met</strong></h4>
-   <ul class="user-tasks max-widt">
+   <ul class="user-tasks max-widt ">
      <li><h4>Prioritization of patients based on medical need and billing cycles</h4></li>
      <li><h4>Ability to narrow list of recent vitals with filters and sort features</h4></li>
     <li><h4>Ability to search for patient by name</h4></li>
    </ul>
+   <div class="tpadding-thirty"></div>
 
-  </div>
+ </div>
 </div>
 
-<img class="tpadding-thirty bpadding-thirty" alt="Contact-Priority" src=images/Contact-Priority.png>
+<div class="light-grey">
+  <div class="min-width">
+    <img class="tpadding-thirty bpadding-thirty" alt="Contact-Priority" src=images/Contact-Priority.png>
+  </div>
+</div>
 
 <div class="min-width">
   <div class="smallest-width">
 
-    <h4>Clicking on a patient card simultaneously opens the file and moves it from the “Contact Priority” tab to the “In Progress” tab. The patient file is now inaccessible to other caregivers until released.</h4>
+    <h4 class="tpadding-sixty bpadding-sixty">Clicking on a patient card simultaneously opens the file and moves it from the “Contact Priority” tab to the “In Progress” tab. The patient file is now inaccessible to other caregivers until released.</h4>
 
   </div>
 </div>
 
-<img class="tpadding-thirty bpadding-thirty" alt="Contact-Priority" src=images/In-Progress.png>
+<div class="light-grey">
+  <div class="min-width ">
+    <h4 class="tpadding-thirty">[In Progress]</h4>
+    <img class=" bpadding-thirty" alt="Contact-Priority" src=images/In-Progress.png>
+  </div>
+</div>
 
 <div class="min-width">
   <div class="smallest-width">
 
-    <h4>If the caregiver solves the patient’s current issue, the card will move to “Recent.” Otherwise, the card will move back to “Contact Priority,” though a record of the interaction will still be logged in “Recent” which contains all history of patient-caregiver interactions. Searching for a patient by name defaults to the “All” tab which also doubles as an alphabetized patient list.</h4>
+    <h4 class="tpadding-sixty">If the caregiver solves the patient’s current issue, the card will move to “Recent.” Otherwise, the card will move back to “Contact Priority,” though a record of the interaction will still be logged in “Recent” which contains all history of patient-caregiver interactions. Searching for a patient by name defaults to the “All” tab which also doubles as an alphabetized patient list.</h4>
 
     <h4><strong>Requirements Met</strong></h4>
-    <ul class="user-tasks max-widt">
+    <ul class="user-tasks max-widt bpadding-thirty">
       <li><h4>Method to prevent multiple caregivers from clicking on the same file at once</h4></li>
       <li><h4>History of recent interactions in event of an audit and for future ML/AI algorithms</h4></li>
      <li><h4>Ability to search for patient by name</h4></li>
