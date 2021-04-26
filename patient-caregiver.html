@@ -106,10 +106,10 @@
       </div>
 
       <div>
-        <h4><strong>Auditing the Old Dashboard</strong></h4>
-        <h4>In the low-code/no code software, caregivers select patients from this list (Redacted). </h4>
-        <h4><strong>Issue</strong></h4>
-        <h4>There is no triaging. Caregivers scroll through a list of recent vital readings and manually prioritize alerts and other issues. This is inefficient, doesn't scale, and risks overlooking urgent cases.</h4>
+        <div class="h5"><strong>Auditing the Old Dashboard</strong></div>
+        <div class="h5">In the low-code/no code software, caregivers select patients from this list (Redacted).</div>
+        <div class="h5 tpadding-thirty"><strong>Issue</strong></div>
+        <div class="h5">There is no triaging. Caregivers scroll through a list of recent vital readings and manually prioritize alerts and other issues. This is inefficient, doesn't scale, and risks overlooking urgent cases.</div>
       </div>
 
    </div>
@@ -121,7 +121,7 @@
 
 <!-- Back to min centered text -->
 <div class="min-width">
-  <div class="smallest-width tpadding-thirty">
+  <div class="smallest-width bpadding-thirty tpadding-thirty">
 
     <h4>Between examining the outgoing system, interviewing current RPM caregivers, and looking at competitors’ solutions we came up with the following requirements:
     </h4>
@@ -149,29 +149,31 @@
 <div class="light-grey">
   <div class="min-width">
 
-    <h4 class="tpadding-thirty"><strong>Information Needed Before Selecting A Patient</strong></h4>
+    <div class="smallest-width bpadding-thirty">
+    <h4 class="tpadding-sixty"><strong>Information Needed Before Selecting A Patient</strong></h4>
     <h4>Opening a patient file commits a caregiver to that patient and locks the file to other caregivers. We considered a preview pane to help caregivers decide who to help first without getting locked to that file.</h4>
+  </div>
 
     <div class="grid-container-r">
       <img class="bpadding-thirty imageforma" alt="Contact-Priority" src=images/Patient_Preview.png>
 
       <div>
-        <h4><strong>Layout A: Expanded Patient Preview</strong></h4>
-        <h4>Clicking on a patient card opens a window with a wealth of information about the patient. From there, caregivers can open the full file or move on without committing to the patient.<h4>
+        <div class="h5"><strong>Layout A: Expanded Patient Preview</strong></div>
+        <div class="h5">Clicking on a patient card opens a window with a wealth of information about the patient. From there, caregivers can open the full file or move on without committing to the patient.</div>
 
-      <h4 class=tpadding-ten><strong>Status: Rejected </strong></h4>
-      <h4>A patient preview added complexity and took up valuable screen estate.</h4>
+      <div class="h5 tpadding-thirty"><strong>Status: Rejected </strong></div>
+      <div class="h5">A patient preview added complexity and took up valuable screen estate.</div>
       </div>
     </div>
 
     <div class="bpadding-thirty grid-container-l">
 
       <div>
-        <h4><strong>Layout B: Fixed Patient Cards </strong></h4>
-        <h4>Clicking on a patient card opens the full patient file directly without a large preview pane.<h4>
+        <div class="h5"><strong>Layout B: Fixed Patient Cards </strong></div>
+        <div class="h5">Clicking on a patient card opens the full patient file directly without a large preview pane.</div>
 
-      <h4 class=tpadding-ten><strong>Status: In Use</strong></h4>
-      <h4>Medium sized patient cards proved large enough for general patient information in a smaller, simpler package.</h4>
+      <div class="h5 tpadding-thirty"><strong>Status: In Use</strong></div>
+      <div class="h5">Medium sized patient cards proved large enough for general patient information in a smaller, simpler package.</div>
       </div>
 
       <img class="bpadding-thirty imageforma" alt="Contact-Priority" src=images/Medium_Patient_Card.png>
@@ -256,22 +258,26 @@
 
  <div class="light-grey">
    <div class="min-width">
+
+     <div class="smallest-width bpadding-thirty">
      <h4 class="tpadding-sixty"><strong>Patient Card Flow</strong></h4>
+     <h4>This is the patient-caregiver flow in production. It involves four tabs dedicated to each stage in the process. Here's what that looks like in practice.</h4>
+   </div>
 
      <div class="grid-container-r">
        <img class="bpadding-thirty imageforma" alt="Contact-Priority" src=images/Contact_PriorityA.png>
 
        <div>
-         <h4><strong>1. Contact Priority</strong></h4>
-         <h4>Caregiver Jacklin Channer sees patient Ron Ackerman has a BP Alert and is due for a check in. She opens his file.</h4>
+         <div class="h5"><strong>1. Contact Priority</strong></div>
+         <div class="h5">Caregiver Jacklin Channer sees patient Ron Ackerman has a BP Alert and is due for a check in. She opens his file.</div>
        </div>
      </div>
 
      <div class="grid-container-l">
 
        <div>
-         <h4><strong>2. In Progress</strong></h4>
-         <h4>While Jacklin has Ron’s file open, it is removed from the list of available patients and moved to “In Progress”. His file is now locked to all other caregivers while she delivers appropriate care.</h4>
+         <div class="h5"><strong>2. In Progress</strong></div>
+         <div class="h5">While Jacklin has Ron’s file open, it is removed from the list of available patients and moved to “In Progress”. His file is now locked to all other caregivers while she delivers appropriate care.</div>
        </div>
 
        <img class="bpadding-thirty imageforma" alt="Contact-Priority" src=images/In_ProgressB.png>
@@ -282,8 +288,8 @@
        <img class="bpadding-thirty imageforma" alt="Contact-Priority" src=images/RecentC.png>
 
        <div>
-         <h4><strong>3. Recent</strong></h4>
-         <h4>After Ron has been cared for, a log of Jacklins actions is automatically recorded for medical, regulatory and future AI/ML reasons.</h4>
+         <div class="h5"><strong>3. Recent</strong></div>
+         <div class="h5">After Ron has been cared for, a log of Jacklins actions is automatically recorded for medical, regulatory and future AI/ML reasons.</div>
        </div>
      </div>
 
@@ -291,8 +297,8 @@
      <div class="grid-container-l">
 
        <div>
-         <h4><strong>4. All</strong></h4>
-         <h4>A week later, Jacklin wants to look up Ron Ackerman but he’s buried 19 pages down in “Recent.” She searches for him alphabetically or by name in “All.”</h4>
+         <div class="h5"><strong>4. All</strong></div>
+         <div class="h5">A week later, Jacklin wants to look up Ron Ackerman but he’s buried behind nine-hundred more recent patiet in the “Recent" tab. Instead, she uses the "All tab to search for him alphabetically or search by his name .”</div>
        </div>
 
        <img class="bpadding-thirty imageforma" alt="Contact-Priority" src=images/AllD.png>

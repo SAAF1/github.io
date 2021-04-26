@@ -31,8 +31,12 @@ h1{
   font-size: 2.7rem;
   /* font-weight:700; */
   font-weight:500;
+  /* Pre-Almond Padding
   padding-top:2.5vw;
-  padding-bottom:2.5vw;
+  padding-bottom:2.5vw; */
+
+  padding-top:1.5vw;
+  padding-bottom:1.5vw;
   max-width:700px;
 }
 
@@ -72,22 +76,27 @@ font-style: normal;
 font-weight: normal;
 line-height: 1.6;
 font-size: 19px;
+/* Pre-ALmond Padding
 padding-top:.5vw;
-padding-bottom:.5vw;
+padding-bottom:.5vw; */
+
+padding-top:.2vw;
+padding-bottom:.2vw;
 /* OLD 22px; */
 color: #332609;
 max-width: 700px;
 }
 
+
 .h5{
- font-family: 'Lato', sans-serif;
+ font-family: 'Manrope', sans-serif;
  font-style: normal;
  font-weight: normal;
  line-height: normal;
  font-size: 16px;
  color: #332609;
- padding-top:1vw;
- padding-bottom:0vw;
+ padding-top:.2vw;
+ padding-bottom:.2vw;
 }
 
 .h6{
@@ -825,16 +834,17 @@ text-indent: -1rem;
   display: grid;
   grid-template-columns:  auto 280px;
   grid-gap: 20px;
+  /* align-items: center; */
 
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .grid-container-l {
   display: grid;
   grid-template-columns: 280px auto;
   grid-gap: 20px;
-
-  padding: 20px;
+  /* align-items: center; */
+  /* padding: 20px; */
 }
 
 .user-flows{
