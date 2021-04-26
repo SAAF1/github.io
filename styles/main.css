@@ -1410,11 +1410,13 @@ nav > a {
 
 .patient-card-progression{
   display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 3fr .5fr 3fr .5fr 1.7fr .5fr 3fr ;
   /* grid-template-columns: repeat(auto-fit, minmax(75px, 1fr)); */
-  grid-column-gap:30px;
-  grid-row-gap: 30px;
+  grid-column-gap:10px;
+  /* grid-row-gap: 30px; */
 }
+
+
 
 /* PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE     */
 .statistics{
