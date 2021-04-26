@@ -342,6 +342,7 @@ nav {
 
 strong {
   /* font-weight: bold; */
+    font-weight:700;
 }
 
 .height-two-hundred{
@@ -811,10 +812,29 @@ text-indent: -1rem;
 }
 
 .r-small
-.two-column{
-  display: grid;
-    grid-template-columns: 1fr 5fr;
 
+.two-columns{
+  display: grid;
+  grid-template-columns: auto 40px;
+  /* grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); */
+  grid-column-gap:15px;
+  grid-row-gap:15px;
+}
+
+.grid-container-r {
+  display: grid;
+  grid-template-columns:  auto 280px;
+  grid-gap: 20px;
+
+  padding: 20px;
+}
+
+.grid-container-l {
+  display: grid;
+  grid-template-columns: 280px auto;
+  grid-gap: 20px;
+
+  padding: 20px;
 }
 
 .user-flows{
@@ -896,6 +916,17 @@ text-indent: -1rem;
   grid-row: 1fr;
   grid-column-gap: 15px;
 }
+
+.arrow{
+  /* display:block; */
+  margin:auto;
+  /* display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 50px, auto;
+  grid-column-gap: 5px; */
+}
+
+
 
 .uneven-two-column{
   display: grid;
@@ -1365,6 +1396,14 @@ nav > a {
    height: 100px;
    margin: auto;
 
+}
+
+.patient-card-progression{
+  display: grid;
+    grid-template-columns: auto auto auto auto;
+  /* grid-template-columns: repeat(auto-fit, minmax(75px, 1fr)); */
+  grid-column-gap:30px;
+  grid-row-gap: 30px;
 }
 
 /* PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE PLAYTE     */

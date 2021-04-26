@@ -32,6 +32,7 @@
           <nav>
             <!-- <a href="mailto:abrahamakivafriedman@gmail.com"><h4>Contact</h4></a> -->
             <a href="index.html" class="current" ><h4>Home</h4></a>
+            <a href="about.html"><h4>About</h4></a>
             <a href="mailto:abrahamakivafriedman@gmail.com"> <h4>Contact</h4></a>
             <!-- <a href="about.html"><h4>About</h4></a> -->
             <!-- <a href="resume.html"><h4>Resume</h4></a> -->
@@ -52,7 +53,8 @@
     <div class="intro-tw-column">
       <!-- Class "intro-two-column" is what puts Overview to the left of the body text. -->
 
-      <div><h2>Overview</h2></div>
+      <h2 class="bpadding-thirt">Patient-Caregiver Interaction at Almond Health</h2>
+      <!-- <h4><strong>Overview</strong></h4> -->
       <div><h4><a href="https://almond.health/" target="_blank">Almond</a>, a remote patient monitoring (RPM) startup, needed a way to organize the stages of patient-caregiver interactions to replace an old system.
       </div></h4>
      </div>
@@ -69,7 +71,7 @@
 <!-- <img class="" alt="Contact-Priority" src=images/ContactPriorityCropped1.png> -->
 
 <!-- Here's where I create another bloc of centered text -->
-<div class="tpadding-sixty min-width">
+<div class="tpadding-sixty min-width bpadding-sixty">
   <div class="smallest-width">
     <!-- all text centered inside this div -->
     <h2>Problem</h2>
@@ -94,9 +96,23 @@
 </div>
 
 <div class="light-grey">
-  <div class="min-width">
-    <div class="tpadding-thirty"><div class=""><h4>[Old Caregiver Dashboard]</h4></div></div>
-    <img class="bpadding-thirty" alt="Contact-Priority" src=images/cpcReach-Dashboard.png>
+  <div class="min-width tpadding-thirty">
+    <div class="grid-container-r tpadding-thirty">
+      <!-- <img class="bpadding-thirty" alt="Contact-Priority" src=images/cpcReach-Dashboard.png> -->
+
+      <div class="tpadding-thirt">
+          <!-- <h4>[Old Caregiver Dashboard]</h4> -->
+          <img class="bpadding-thirty imageforma" alt="Contact-Priority" src=images/cpcReach-Dashboard.png>
+      </div>
+
+      <div>
+        <h4><strong>Auditing the Old Dashboard</strong></h4>
+        <h4>In the low-code/no code software, caregivers select patients from this list (Redacted). </h4>
+        <h4><strong>Issue</strong></h4>
+        <h4>There is no triaging. Caregivers scroll through a list of recent vital readings and manually prioritize alerts and other issues. This is inefficient, doesn't scale, and risks overlooking urgent cases.</h4>
+      </div>
+
+   </div>
   </div>
 </div>
 
@@ -107,7 +123,7 @@
 <div class="min-width">
   <div class="smallest-width tpadding-thirty">
 
-    <h4>Caregivers had to scroll through a list of recent vital readings and manually prioritize alerts and other issues. This was inefficient, didn’t scale, and risked overlooking urgent cases. Between examining the outgoing system, interviewing current RPM caregivers, and looking at competitors’ solutions we came up with the following requirements:
+    <h4>Between examining the outgoing system, interviewing current RPM caregivers, and looking at competitors’ solutions we came up with the following requirements:
     </h4>
 
     <h4 class="tpadding-thirty"><strong>Solution Requirements:</strong><br></h4>
@@ -123,9 +139,50 @@
       <h4>I sketched out some design ideas by hand and wireframed the most promising ones to discuss with my PM. Considerations included:</h4>
       <ul class="user-tasks max-widt">
         <li><h4>Degree of separation between stages of patient-caregiver interaction</h4></li>
-        <li><h4>Designs that could best accommodate future known and unknown features and requirements </h4></li>
+        <li><h4>Information caregivers need before commiting to a patient file</h4></li>
+          <li><h4>Designs that could best accommodate future known and unknown features and requirements </h4></li>
       </ul>
 
+    </div>
+  </div>
+
+<div class="light-grey">
+  <div class="min-width">
+
+    <h4 class="tpadding-thirty"><strong>Information Needed Before Selecting A Patient</strong></h4>
+    <h4>Opening a patient file commits a caregiver to that patient and locks the file to other caregivers. We considered a preview pane to help caregivers decide who to help first without getting locked to that file.</h4>
+
+    <div class="grid-container-r">
+      <img class="bpadding-thirty imageforma" alt="Contact-Priority" src=images/Patient_Preview.png>
+
+      <div>
+        <h4><strong>Layout A: Expanded Patient Preview</strong></h4>
+        <h4>Clicking on a patient card opens a window with a wealth of information about the patient. From there, caregivers can open the full file or move on without committing to the patient.<h4>
+
+      <h4 class=tpadding-ten><strong>Status: Rejected </strong></h4>
+      <h4>A patient preview added complexity and took up valuable screen estate.</h4>
+      </div>
+    </div>
+
+    <div class="bpadding-thirty grid-container-l">
+
+      <div>
+        <h4><strong>Layout B: Fixed Patient Cards </strong></h4>
+        <h4>Clicking on a patient card opens the full patient file directly without a large preview pane.<h4>
+
+      <h4 class=tpadding-ten><strong>Status: In Use</strong></h4>
+      <h4>Medium sized patient cards proved large enough for general patient information in a smaller, simpler package.</h4>
+      </div>
+
+      <img class="bpadding-thirty imageforma" alt="Contact-Priority" src=images/Medium_Patient_Card.png>
+
+    </div>
+
+  </div>
+</div>
+
+  <div class="min-width">
+    <div class="smallest-width tpadding-thirty">
       <h4>We created a patient card that provides caregivers with a high level overview of the patient and context of their current needs.</h4>
       <img class="tpadding-thirt bpadding-thirt" alt="Contact-Priority" src=images/Patient-Card.png>
       <h4 class="bpadding-sixty">This card will move through four tabs on the dashboard throughout all stages of the current patient-caregiver interaction. Each tab is dedicated to dealing with one stage of the interaction.</h4>
@@ -138,44 +195,52 @@
 
 <div class="light-grey">
   <div class="min-width">
-    <!-- <img class="light-grey tpadding-thirty bpadding-thirty" alt="Contact-Priority" src=images/TabsShortWidth.png> -->
+    <img class="light-grey tpadding-thirty bpadding-thirty" alt="Contact-Priority" src=images/TabsShortWidth.png>
 
-    <h4 class="tpadding-thirty"><strong>Tab and Patient Card Progression</strong></h4>
-    <div class="patient-card-progression bpadding-thirty">
+    <!-- <h4 class="tpadding-thirty"><strong>Tab and Patient Card Progression</strong></h4> -->
+    <!-- <div class="patient-card-progression bpadding-thirty">
       <div>
         <div class="even-two-column2">
-        <h4 class="bpadding-ten">Contact Priority</h4>
-        <img class="" alt="Contact-Priority" src=images/Arrow_Right.svg>
+        <h4 class="pbadding-te">Contact Priority</h4>
       </div>
         <h4>Main page where caregivers find patients to help. Patented algorithm triages patients based on medical urgency, billing cycle, and time since last contact.</h4>
       </div>
 
       <div>
+          <img class="" alt="Contact-Priority" src=images/Stubby_Arrow.svg>
+      </div>
+
+      <div>
         <div class="even-two-column2">
-        <h4 class="bpadding-ten">In Progress</h4>
-        <img class="" alt="Contact-Priority" src=images/Arrow_Right.svg>
+        <h4 class="bpadding-te">In Progress</h4>
       </div>
           <h4>Patients currently talking to a caregiver. File is locked to everyone but the current caregiver.
-</h4>
+          </h4>
+      </div>
+
+      <div>
+          <img class="" alt="Contact-Priority" src=images/Stubby_Arrow.svg>
       </div>
 
       <div>
           <div class="even-two-column2">
           <h4 class="bpadding-ten">Recent</h4>
-          <img class="" alt="Contact-Priority" src=images/Arrow_Right.svg>
         </div>
         <h4>History of recent interactions.</h4>
       </div>
 
       <div>
+          <img class="" alt="Contact-Priority" src=images/Stubby_Arrow.svg>
+      </div>
+
+      <div>
         <div class="even-two-column2">
         <h4 class="bpadding-ten">All</h4>
-        <img class="" alt="Contact-Priority" src=images/Arrow_Right.svg>
       </div>
         <h4>A catch-all tab for patients no longer under  “Recent” and lists patients regardless of interaction status. Searching for a patient by name defaults to this page.
-</h4>
+        </h4>
       </div>
-  </div>
+  </div> -->
 
   </div>
 </div>
@@ -184,8 +249,61 @@
   <div class="smallest-width">
 
     <h2 class="tpadding-sixty">Visual Design</h2>
-    <h4>Designs generally adhere to Material Design guidelines and some components were pulled from a paid material design library and modified to fit our use case. We used an 8-point grid and adopted the font styles and colors of the design library except for the Almond’s orange brand color.</h4>
+    <h4 class="bpadding-sixty">Designs generally adhere to Material Design guidelines and some components were pulled from a paid material design library and modified to fit our use case. We used an 8-point grid and adopted the font styles and colors of the design library except for the Almond’s orange brand color.</h4>
 
+  </div>
+ </div>
+
+ <div class="light-grey">
+   <div class="min-width">
+     <h4 class="tpadding-sixty"><strong>Patient Card Flow</strong></h4>
+
+     <div class="grid-container-r">
+       <img class="bpadding-thirty imageforma" alt="Contact-Priority" src=images/Contact_PriorityA.png>
+
+       <div>
+         <h4><strong>1. Contact Priority</strong></h4>
+         <h4>Caregiver Jacklin Channer sees patient Ron Ackerman has a BP Alert and is due for a check in. She opens his file.</h4>
+       </div>
+     </div>
+
+     <div class="grid-container-l">
+
+       <div>
+         <h4><strong>2. In Progress</strong></h4>
+         <h4>While Jacklin has Ron’s file open, it is removed from the list of available patients and moved to “In Progress”. His file is now locked to all other caregivers while she delivers appropriate care.</h4>
+       </div>
+
+       <img class="bpadding-thirty imageforma" alt="Contact-Priority" src=images/In_ProgressB.png>
+
+     </div>
+
+     <div class="grid-container-r">
+       <img class="bpadding-thirty imageforma" alt="Contact-Priority" src=images/RecentC.png>
+
+       <div>
+         <h4><strong>3. Recent</strong></h4>
+         <h4>After Ron has been cared for, a log of Jacklins actions is automatically recorded for medical, regulatory and future AI/ML reasons.</h4>
+       </div>
+     </div>
+
+
+     <div class="grid-container-l">
+
+       <div>
+         <h4><strong>4. All</strong></h4>
+         <h4>A week later, Jacklin wants to look up Ron Ackerman but he’s buried 19 pages down in “Recent.” She searches for him alphabetically or by name in “All.”</h4>
+       </div>
+
+       <img class="bpadding-thirty imageforma" alt="Contact-Priority" src=images/AllD.png>
+
+     </div>
+
+   </div>
+ </div>
+
+ <!-- <div class="min-width">
+   <div class="smallest-width">
    <h2 class="tpadding-thirty">Patient Card Flow</h2>
    <h4>Caregivers would use the first tab, “Contact Priority,” to pick up a patient card. By default the feed is populated with the patented “Almond Rank” but can be sorted and filtered in numerous ways to fit different use cases.</h4>
 
@@ -198,31 +316,31 @@
    <div class="tpadding-thirty"></div>
 
  </div>
-</div>
+</div> -->
 
-<div class="light-grey">
+<!-- <div class="light-grey">
   <div class="min-width">
     <h4 class="tpadding-thirty">[Contact Priority- Triages Patient for Caregivers]</h4>
     <img class=" bpadding-thirty" alt="Contact-Priority" src=images/Contact-Priority.png>
   </div>
-</div>
+</div> -->
 
-<div class="min-width">
+<!-- <div class="min-width">
   <div class="smallest-width">
 
     <h4 class="tpadding-sixty bpadding-sixty">Clicking on a patient card simultaneously opens the file and moves it from the “Contact Priority” tab to the “In Progress” tab. The patient file is now inaccessible to other caregivers until released.</h4>
 
   </div>
-</div>
+</div> -->
 
-<div class="light-grey">
+<!-- <div class="light-grey">
   <div class="min-width ">
     <h4 class="tpadding-thirty">[In Progress]</h4>
     <img class=" bpadding-thirty" alt="Contact-Priority" src=images/In-Progress.png>
   </div>
-</div>
+</div> -->
 
-<div class="min-width">
+<!-- <div class="min-width">
   <div class="smallest-width">
 
     <h4 class="tpadding-sixty">If the caregiver solves the patient’s current issue, the card will move to “Recent.” Otherwise, the card will move back to “Contact Priority,” though a record of the interaction will still be logged in “Recent” which contains all history of patient-caregiver interactions. Searching for a patient by name defaults to the “All” tab which also doubles as an alphabetized patient list.</h4>
@@ -233,6 +351,12 @@
       <li><h4>History of recent interactions in event of an audit and for future ML/AI algorithms</h4></li>
      <li><h4>Ability to search for patient by name</h4></li>
     </ul>
+
+  </div>
+</div> -->
+
+<div class="min-width">
+  <div class="smallest-width">
 
     <h2 class="tpadding-sixty">Observations & Lessons</h2>
     <h4>Dividing the patient-caregiver interaction into stages which patient cards move between granted some clarity to a previously confusing process. However, the short development time and limited user testing that is endemic to early stage startups means there may be some lingering user problems that still need to be flushed out. Some lessons learned include:</h4>
