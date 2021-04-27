@@ -1062,7 +1062,7 @@ text-indent: -1rem;
    display:grid;
    grid-template-columns: 1fr 1fr;
    grid-column-gap: 60px;
-   align-items: center;
+   align-items: top;
  }
 
  .min-even-two-column{
