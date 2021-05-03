@@ -52,7 +52,8 @@
     <div class="intro-tw-column">
       <!-- Class "intro-two-column" is what puts Overview to the left of the body text. -->
 
-      <div><h2>Overview</h2></div>
+      <div><h2>Patient Details Dashboard</h2></div>
+      <h4 class="tpadding-thirty"><strong>Overview</strong></h4>
       <div><h4><a href="https://almond.health/" target="_blank">Almond</a>, a remote patient monitoring (RPM) startup, needed a patient details page for software their caregivers would use. It needed to be scannable and accommodate the unknown demands of the rapidly evolving RPM field.
       </div></h4>
      </div>
@@ -94,37 +95,47 @@
 </div>
 
 <div class="light-grey">
-  <div class="min-width">
-    <div class="tpadding-thirty"><div class=""><h4>[Patient File - Old Software]</h4></div></div>
-    <img class="bpadding-thirty" alt="Contact-Priority" src=images/cpcReach-Patient-Details.png>
+  <div class="min-width tpadding-thirty">
+
+    <div class="grid-container-r tpadding-thirty">
+      <div class="tpadding-thirt">
+          <img class="bpadding-thirty imageforma" alt="Contact-Priority" src=images/cpcReach-Patient-Details.png>
+      </div>
+
+      <div>
+        <div class="h5"><strong>Auditing the Old Patient File</strong></div>
+        <div class="h5">In the low code/no-code software, caregivers learn more about the patient by examining the patient file.</div>
+        <div class="h5 tpadding-thirty"><strong>Issue</strong></div>
+        <div class="h5">Poor information architecture.  Key decision making items like alerts and graphs are hidden behind multiple clicks (top box) while less important items like device details (middle) and device diagnostics (bottom) are given priority.</div>
+      </div>
+   </div>
+
+   <div class="bpadding-thirty grid-container-l">
+
+     <div>
+       <div class="h5 tpadding-thirty"><strong>Auditing Patient Graphs</strong></div>
+       <div class="h5">When caregivers need access to key decision making data, they open up dedicated pages like this BP analysis chart (Redacted).</div>
+
+     <div class="h5 tpadding-thirty"><strong>Issue</strong></div>
+     <div class="h5">The graph itself does a poor job of data visualization. Combining systolic, diastolic and pulse readings into one chart makes it difficult to separate individual trends and data points. The yellow bar on hover obscures the parts of the graph it’s supposed to highlight.</div>
+     </div>
+
+     <img class="bpadding-thirty imageforma" alt="Contact-Priority" src=images/cpcReach-Charts.png>
+
+   </div>
+
   </div>
+
 </div>
 
-<!-- <div class="min-width tpadding-thirty"><div class="smallest-width"><h4>[Old Caregiver Dashboard]</h4></div></div>
-<img class="bpadding-thirty" alt="Contact-Priority" src=images/cpcReach-Dashboard.png> -->
-
-<!-- Back to min centered text -->
-<div class="min-width">
-  <div class="smallest-width tpadding-thirty">
-
-    <h4>Putting aside aesthetics, the most immediate problem caregivers have is information needed at a glance is buried behind multiple clicks. Caregivers have to leave the page to check for alerts. Key patient trends charts are likewise hidden along with important demographics information.<br><br>Navigating to the patient chart page adds a new set of questions:</h4>
-    <div class="bpadding-thirty"></div>
-  </div>
-</div>
-
-<div class="light-grey">
-  <div class="min-width">
-    <div class="tpadding-thirty"><div class=""><h4>[Patient Chart - Old Software]</h4></div></div>
-    <img class="bpadding-thirty" alt="Contact-Priority" src=images/cpcReach-Charts.png>
-  </div>
-</div>
 
 <div class="min-width">
   <div class="smallest-width tpadding thirty">
-    <h4 class="tpadding-thirty">The chart is generally hard to read, obscuring individual vitals and making it difficult to separate trend lines. This impacts patient care quality and work efficiency. Between examining the outgoing system, interviewing current RPM caregivers, and looking at competitors’ solutions we came up with the following requirements: </h4>
+    <h4 class="tpadding-thirty">Between examining the outgoing system, interviewing current RPM caregivers, and looking at competitors’ solutions we came up with the following requirements:</h4>
     <h4 class="tpadding-thirty"><strong>Solution Requirements:</strong><br></h4>
       <ul class="user-tasks max-widt">
         <li><h4>List all current and past information relating to the patient</h4></li>
+        <li><h4>Surface frequently used items </h4></li>
         <li><h4>Allow caregivers to quickly parse information for items that require attention</h4></li>
         <li><h4>Easily accommodate unknown future features</h4></li>
       </ul>
@@ -132,58 +143,160 @@
       <h4 class="tpadding-thirty"><strong>Balancing Data vs. Cognitive Load:</strong></h4>
       <h4>The amount of information in each patient file cut against the requirement that caregivers be able to easily identify areas that need additional attention. A cluttered patient file also makes it harder to place unknown future features.</h4>
 
-      <h2 class="tpadding-thirty">Sketching & Wireframing</h2>
-      <h4>I sketched different organizational schemas and explored different layouts. Together, my PM and I decided on a two-part solution.</h4>
+      <h4 class="tpadding-thirty"><strong>Interviewing Caregivers</strong></h4>
+      <h4>I interviewed two nurses, the lead caregiver of our partners RPM team, along with a M.D. to understand the decision making process that goes into calling a patient. This will decide what items are surfaced.</h4>
+      <h4 class="tpadding-ten"><strong>Key Questions</strong></h4>
       <ul class="user-tasks max-widt">
-        <li><h4>Summarize patient data instead of listing it. Each summary links to a dedicated page caregivers can open for a deeper analysis.</h4></li>
-        <li><h4>Divide the page into three sections: Static information, dynamic information and action items.</h4></li>
+        <li><h4>What caregivers look at first (demographics, cause of current issue, sticky notes)</h4></li>
+        <li><h4>Whether they need access to multiple items at the same time during a call (generally not but should be easily accessible).</h4></li>
+        <li><h4>The most commonly performed tasks (calling patients for compliance, dismissing alerts, reading last patient note).</h4></li>
       </ul>
+
+      <h2 class="tpadding-thirty">Sketching & Wireframing</h2>
+      <h4>We decided to turn the patient file into a patient dashboard which contained summaries instead of an exhaustive list of information that would be hard to navigate. Each summary links to a dedicated page caregivers can open for a deeper analysis. </h4>
+
       <div class="bpadding-thirty"></div>
 
     </div>
 </div>
 
 <div class="light-grey">
-  <div class="min-width">
-    <div class="tpadding-thirty"><div class=""><h4>[Page Sections]</h4></div></div>
-    <img class="bpadding-thirty" alt="Contact-Priority" src=images/Page-Section.png>
+  <div class="min-width tpadding-thirty">
+
+    <div class="grid-container-r tpadding-thirty">
+      <div class="tpadding-thirt">
+          <img class="bpadding-thirty imageforma" alt="Contact-Priority" src=images/Patient_Details_Layout_A.png>
+      </div>
+
+      <div>
+        <div class="h5"><strong>Layout A: Cards</strong></div>
+        <div class="h5">Basic information like demographics which caregivers use to orient themselves are on top. Underneath are widgets that have trends charts or summarized relevant information. The priority vital has a full width chart followed by notes.
+</div>
+        <div class="h5 tpadding-thirty"><strong>Status: Rejected</strong></div>
+        <div class="h5">Lack of card organization makes it likely future features will create card chaos and excessive scrolling. The absence of structure makes item location unpredictable, particularly as the number of cards grows.
+</div>
+      </div>
+   </div>
+
+   <div class="bpadding-thirty grid-container-l">
+
+     <div>
+       <div class="h5 tpadding-thirty"><strong>Layout B: Mix Panels and Cards</strong></div>
+       <div class="h5">Combine left and right panels with center cards.</div>
+
+     <div class="h5 tpadding-thirty"><strong>Status: In Use</strong></div>
+     <div class="h5">Left-right panels are more space efficient than cards and provide a predictable location for priority information. Center feed highlights graphs and allows for future additional features.</div>
+     </div>
+
+     <img class="bpadding-thirty imageforma" alt="Contact-Priority" src=images/Patient_Details_Layout_B.png>
+
+   </div>
+
   </div>
+
 </div>
 
-<div class="min-width">
-  <div class="smallest-width">
-
-      <h4 class="tpadding-thirty">Besides lowering cognitive-load, distilling data into summaries and dividing the page into zones make it easier to add new features. For example, additional information to demographics would slot neatly into the demographics group. Unique new features would create its own group but still be sorted into a static, dynamic or action section. During testing, a caregiver requested a sticky-note feature which merited its own group but still fit within the static section.</h4>
-
-    <h2 class="tpadding-thirty">Visual Design</h2>
-    <h4 class="bpadding-thirty">Designs generally adhere to Material Design guidelines and some components were pulled from a paid material design library and modified to fit our use case. We used an 8-point grid and adopted the font styles and colors of the design library except for the Almond’s orange brand color.</h4>
-
-  </div>
+<div class="min-width bpadding-thirty">
+  <div class="smallest-width tpadding-thirty">
+      <h4>It was important that the design not only be flexible enough to accommodate future features, but also provide a framework for where new features should be placed. Though it’s difficult design for an unknowable future, we thought it likely items would fall into one of three categories:</h4>
+      <h4 class="tpadding-ten"><strong>Items are Either</strong></h4>
+      <ul class="user-tasks max-widt">
+        <li><h4>Static/slow changing. Name and program enrollment vary little day to day.</h4></li>
+        <li><h4>Dynamic content. Daily vitals and patient notes are constantly updating.</h4></li>
+        <li><h4>Action items. Examples include alert management and adding new devices.</h4></li>
+      </ul>
+</div>
 </div>
 
 <div class="light-grey">
-  <div class="min-width">
-    <div class="tpadding-thirty"><div class=""><h4>[Patient Detail Dashboard]</h4></div></div>
-    <img class="bpadding-thirty" alt="Contact-Priority" src=images/PatientDetail.png>
+  <div class="min-width tpadding-thirty">
+
+    <div class="grid-container-r tpadding-thirty">
+      <div class="tpadding-thirt">
+          <img class="bpadding-thirty imageforma" alt="Contact-Priority" src=images/Page_Section.png>
+      </div>
+
+      <div>
+        <div class="h5"><strong>Sections</strong></div>
+        <div class="h5">Dividing the dashboard into sections (slow, dynamic and action) provides a logical placement for existing features and acts as a template for future features.
+        </div>
+        <div class="h5 tpadding-thirty"><strong>Groups</strong></div>
+        <div class="h5">Topics were broken down into groups. “Profile, Vital A Graph, Care Plans” are examples of different groups. Each contain just enough information for caregivers to make a decision whether to investigate further.
+        </div>
+      </div>
+   </div>
+
+
+
   </div>
+
 </div>
+
 
 <div class="min-width">
-  <div class="smallest-width">
-
-<h4  class="tpadding-thirty bpadding-thirty">Each group of data contains just enough information for caregivers to decide whether to investigate further. For example the blood pressure chart (top-center) allows caregivers to get an idea of trends and recent readings. They can analyse blood pressure in more detail by opening the dedicated analysis page.</h4>
+  <div class="smallest-width tpadding-sixty bpadding-sixty">
+    <h2 class="tpadding-thirt">Visual Design</h2>
+    <h4 class="bpadding-thirt">Designs generally adhere to Material Design guidelines and some components were pulled from a paid material design library and modified to fit our use case. We used an 8-point grid and adopted the font styles and colors of the design library except for the Almond’s orange brand color.</h4>
 
   </div>
 </div>
+
+
 
 <div class="light-grey">
   <div class="min-width">
-    <div class="tpadding-thirty"><div class=""><h4>[Blood Pressure Analysis Page]</h4></div></div>
-    <img class="bpadding-thirty" alt="Contact-Priority" src=images/Blood-Pressure-Analysis.png>
+
+    <div class="smallest-width bpadding-thirty">
+    <h4 class="tpadding-sixty"><strong>Patient Details In Practice</strong></h4>
+    <h4>This is how a caregiver would interact with the patient dashboard in production (based on previous interviews with caregivers).</h4>
+  </div>
+
+    <div class="grid-container-r">
+      <img class="bpadding-thirty imageforma" alt="Contact-Priority" src=images/Patient_Detail_Flow_1.png>
+
+      <div>
+        <div class="h5 tpadding-thirty"><strong>1. Gain Context:</strong></div>
+        <div class="h5">Caregiver Jacklin Channer opened Ron Ackerman’s file because he had a blood pressure (BP) Alert and was due for a check in. Jacklin looks at Ron’s age, gender, height, and weight to add context to the BP Alert.</div>
+      </div>
+    </div>
+
+    <div class="tpadding-thirty grid-container-l">
+
+      <div>
+        <div class="h5 tpadding-thirty"><strong>2. Patient Background</strong></div>
+        <div class="h5">Jacklin checks the staff sticky note and sees a previous caregiver wrote Ron has a temporarily <strong>low</strong> blood pressure making this sudden spike unusual. </div>
+      </div>
+
+      <img class="bpadding-thirty imageforma" alt="Contact-Priority" src=images/Patient_Detail_Flow_2.png>
+
+    </div>
+
+    <div class="tpadding-thirty grid-container-r">
+      <img class="bpadding-thirty imageforma" alt="Contact-Priority" src=images/Patient_Detail_Flow_3.png>
+
+      <div>
+        <div class="h5 tpadding-thirty"><strong>3. Investigate Current Issues</strong></div>
+        <div class="h5">She sees Ron is ten minutes short for the month billing cycle and is owed a caregiver check in. Jacklin next investigates the more important issue of the BP Alert by opening the full blood pressure graph.</div>
+      </div>
+    </div>
+
+
+    <div class=" tpadding-thirty grid-container-l">
+
+      <div>
+        <div class="h5 tpadding-thirty"><strong>4. Contact Patient</strong></div>
+        <div class="h5">Jacklin sees the blood pressure is sudden and extreme. She calls Ron and walks him through taking a new reading. As suspected, he’s perfectly healthy and the alert was caused by poor placement of the blood pressure cuff. (See next case study for alert resolution process). </div>
+      </div>
+
+      <img class="bpadding-thirty imageforma" alt="Contact-Priority" src=images/Patient_BP_Analysis_4.png>
+
+    </div>
+
   </div>
 </div>
 
-<div class="min-width">
+
+<!-- <div class="min-width">
   <div class="smallest-width">
 
     <h4 class="tpadding-thirty">The table on the bottom contains recent blood pressure readings but caregivers can view a complete history by opening “All Readings”.</h4>
@@ -193,7 +306,7 @@
    <div class="tpadding-thirty"></div>
 
  </div>
-</div>
+</div> -->
 
 
 <div class="min-width">
@@ -205,7 +318,7 @@
 <h4><strong>Lessons Learned<strong></h4>
     <ul class="user-tasks max-widt">
       <li><h4>A strong understanding of the problem makes it easier to simplify complexity by removing everything that doesn’t contribute to the solution.</h4></li>
-      <li><h4>Become a avid follower of design patterns and modify them to fit the context</h4></li>
+      <li><h4>Become an avid follower of design patterns and modify them to fit the context</h4></li>
       <li><h4>The confidence to ask questions when I don’t understand something</h4></li>
     </ul>
 

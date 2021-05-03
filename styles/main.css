@@ -144,7 +144,7 @@ ol.ol-inside{
 
 li{
   line-height:1.4;
-  margin-bottom:.5rem;
+  /* margin-bottom:.5rem; */
   max-width:700px;
   font-size:19px;
   /* float:left; */
@@ -1062,7 +1062,7 @@ text-indent: -1rem;
    display:grid;
    grid-template-columns: 1fr 1fr;
    grid-column-gap: 60px;
-   align-items: top;
+   align-items: start;
  }
 
  .min-even-two-column{
